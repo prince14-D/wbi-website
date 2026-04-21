@@ -1,0 +1,20 @@
+{
+  "name": "William Bean Institute",
+  "short_name": "WBI",
+  "start_url": "index.php",
+  "display": "standalone",
+  "background_color": "#0b3a83",
+  "theme_color": "#1E4FA3",
+  "icons": [
+    {
+      "src": "assets/images/logo.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/images/logo.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
