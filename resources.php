@@ -27,14 +27,16 @@ $pageTitle = 'Resources';
     <section class="about-preview">
       <div class="container">
         <h1>Resources and Services</h1>
-        <p>Use the dropdown below to go directly to News, Job Vacancy, or the Verification System.</p>
+        <p>Use the dropdown below to go directly to News, Blog, Job Vacancy, Top Principal List, or the Verification System.</p>
 
         <div class="hub-chooser">
           <label for="resource-select"><strong>Select a destination:</strong></label>
           <select id="resource-select" class="hub-select" onchange="if(this.value){window.location.href=this.value;}">
             <option value="">Choose an option</option>
-            <option value="pages/news.php">News</option>
+            <option value="news.php">News</option>
+            <option value="blog.php">Blog</option>
             <option value="careers.php">Job Vacancy</option>
+            <option value="principal-list.php">Top Principal List</option>
             <option value="verification.php">Verification System</option>
           </select>
         </div>
@@ -48,12 +50,22 @@ $pageTitle = 'Resources';
           <article class="card">
             <h3>News</h3>
             <p>Read school updates, announcements, and important events.</p>
-            <a href="pages/news.php" class="btn secondary">Open News</a>
+            <a href="news.php" class="btn secondary">Open News</a>
           </article>
           <article class="card">
             <h3>Job Vacancy</h3>
             <p>See open positions and opportunities available at WBI.</p>
             <a href="careers.php" class="btn secondary">Open Careers</a>
+          </article>
+          <article class="card">
+            <h3>Blog</h3>
+            <p>Read stories, updates, and reflections from school life at WBI.</p>
+            <a href="blog.php" class="btn secondary">Open Blog</a>
+          </article>
+          <article class="card">
+            <h3>Top Principal List</h3>
+            <p>Celebrate top students recognized for excellence and discipline.</p>
+            <a href="principal-list.php" class="btn secondary">Open Principal List</a>
           </article>
           <article class="card">
             <h3>Verification System</h3>

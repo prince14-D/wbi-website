@@ -20,13 +20,16 @@
         <li class="nav-item"><a class="nav-link" href="about.php">About</a></li>
         <li class="nav-item"><a class="nav-link" href="academics.php">Academics</a></li>
         <li class="nav-item"><a class="nav-link" href="admissions.php">Admissions</a></li>
-        <li class="nav-item"><a class="nav-link" href="principal.php">Principal</a></li>
+        <li class="nav-item"><a class="nav-link" href="executive-director.php">Director</a></li>
         <li class="nav-item"><a class="nav-link" href="staff.php">Staff</a></li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="resources.php" id="resourcesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Page</a>
           <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="resourcesDropdown">
-            <li><a class="dropdown-item" href="pages/news.php">News</a></li>
+            <li><a class="dropdown-item" href="principal.php">Principal</a></li>
+            <li><a class="dropdown-item" href="news.php">News</a></li>
+            <li><a class="dropdown-item" href="blog.php">Blog</a></li>
             <li><a class="dropdown-item" href="careers.php">Job Vacancy</a></li>
+            <li><a class="dropdown-item" href="principal-list.php">Top Principal List</a></li>
             <li><a class="dropdown-item" href="verification.php">Verification System</a></li>
           </ul>
         </li>

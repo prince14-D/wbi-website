@@ -1,5 +1,10 @@
 <?php
 $pageTitle = 'Home';
+require __DIR__ . '/includes/content_store.php';
+$latestNews = wbi_get_news(2);
+$latestActivities = wbi_get_activities(6);
+$foundingYear = 1982;
+$yearsInOperation = date('Y') - $foundingYear;
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -111,6 +116,8 @@ $pageTitle = 'Home';
 			</div>
 		</section>
 
+	
+
 		<section class="about-preview about-feature" data-animate>
 			<div class="container">
 				<div class="row align-items-center g-4">
@@ -143,33 +150,242 @@ $pageTitle = 'Home';
 						<a href="about.php" class="btn secondary">Read More</a>
 					</div>
 				</div>
+
+
 			</div>
 		</section>
 
-		<section class="values section-soft">
+        	<section class="stats-section py-5 text-center text-light" data-animate>
 			<div class="container">
-				<h2>Our Core Values</h2>
-				<div class="value-cards">
-					<article class="card">
+				<h2 class="text-white">Our Impact</h2>
+				<div class="row g-3 mt-3">
+							<div class="col-md-3"><div class="stat-card"><h3 class="stat-number" data-target="<?php echo $foundingYear; ?>">0</h3><p>Founded</p></div></div>
+							<div class="col-md-3"><div class="stat-card"><h3 class="stat-number" data-target="<?php echo $yearsInOperation; ?>" data-suffix="+">0+</h3><p>Years of Operation</p></div></div>
+						<div class="col-md-3"><div class="stat-card"><h3 class="stat-number" data-target="98" data-suffix="%">0%</h3><p>Success Rate</p></div></div>
+						<div class="col-md-3"><div class="stat-card"><h3 class="stat-number" data-target="3">0</h3><p>Academic Levels</p></div></div>
+				</div>
+			</div>
+		</section>
+
+        	<section class="py-5 proprietor-section" data-animate>
+			<div class="container">
+				<div class="proprietor-wrap">
+					<div class="row g-4 align-items-center">
+						<div class="col-lg-5 text-center text-lg-start fade-left">
+							<div class="proprietor-photo-frame mx-auto mx-lg-0">
+								<img src="assets/images/Principal.png" class="img-fluid proprietor-photo" alt="Principal portrait">
+							</div>
+						</div>
+						<div class="col-lg-7 text-start fade-right">
+							<span class="proprietor-kicker">Principal's Message</span>
+							<h2 class="section-title mb-3">A Welcome From The Principal</h2>
+								<p class="proprietor-text"><strong>Warm greetings from the family of World Wide Missions School, Duport Road.</strong></p>
+								<p class="proprietor-text">At WBI, we believe every child is a gift from God with a purpose to fulfill. Our duty is simple: train them well for life and for eternity. Each day, our teachers step into the classroom not just to teach subjects, but to shape character, instill discipline, and build competence that will serve Liberia and beyond.</p>
+								<p class="proprietor-text">We hold firm to three pillars: <strong>Christ, Character, and Excellence</strong>. Your child will be challenged academically to meet Ministry of Education standards and pass WASSCE with integrity. They will also be mentored to respect authority, serve others, and work with their hands. We maintain zero tolerance for exam malpractice, drug abuse, and indiscipline, because real education cannot grow where values are broken.</p>
+								<p class="proprietor-text">To our parents: thank you for trusting us. You are partners, not spectators. To our students: come ready to learn, obey, and lead. The future of Liberia sits in these desks.</p>
+								<p class="proprietor-text">WBI is more than a school; it is a mission field and a launchpad. Together, let us raise a generation that is skilled, godly, and fearless.</p>
+							<div class="proprietor-signature mt-3">
+								<h6 class="mb-0">Mr. Calvin Y. Goffah</h6>
+								<small>Principal, World Wide Missions School</small>
+							</div>
+									<a href="principal.php" class="btn btn-school mt-4">Read More About the Principal</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+
+        <section class="values section-soft" data-animate>
+			<div class="container">
+				<div class="section-heading">
+					<span class="section-kicker">WBI Identity</span>
+					<h2>Our Core Values</h2>
+					<p>
+						At WBI, values are not only taught in class, they are lived daily through worship,
+						learning, discipline, and community impact.
+					</p>
+				</div>
+
+				<div class="value-cards values-enhanced">
+					<article class="card value-card-item fade-left">
+						<div class="value-icon"><i class="bi bi-cross"></i></div>
 						<h3>Christ</h3>
-						<p>Faith is at the center of everything we do.</p>
+						<p>Faith guides our decisions, relationships, and school culture every day.</p>
 					</article>
-					<article class="card">
+					<article class="card value-card-item fade-right">
+						<div class="value-icon"><i class="bi bi-shield-check"></i></div>
 						<h3>Character</h3>
-						<p>We build disciplined and responsible students.</p>
+						<p>We shape disciplined, respectful, and responsible young leaders.</p>
 					</article>
-					<article class="card">
+					<article class="card value-card-item fade-left">
+						<div class="value-icon"><i class="bi bi-award"></i></div>
 						<h3>Excellence</h3>
-						<p>We strive for high academic and moral standards.</p>
+						<p>We pursue high standards in academics, conduct, and performance.</p>
 					</article>
-					<article class="card">
+					<article class="card value-card-item fade-right">
+						<div class="value-icon"><i class="bi bi-people"></i></div>
 						<h3>Service</h3>
-						<p>We prepare students to serve society and humanity.</p>
+						<p>We empower students to serve family, church, nation, and humanity.</p>
 					</article>
 				</div>
 			</div>
 		</section>
 
+
+		<section class="py-5 why-choose-section" data-animate>
+			<div class="container">
+				<div class="row g-4 align-items-center">
+
+					<div class="col-lg-6 fade-left">
+						<div class="video-panel">
+							<div class="ratio ratio-16x9 rounded overflow-hidden shadow-sm">
+								<iframe src="https://www.youtube.com/embed/SNQtms7IoTE"
+									title="William Bean Institute"
+									allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+									allowfullscreen></iframe>
+							</div>
+							<p class="video-note mb-0">Take a quick look at school life and learning at WBI.</p>
+						</div>
+					</div>
+
+					<div class="col-lg-6 fade-right">
+						<span class="section-kicker">Why Parents Choose WBI</span>
+						<h2 class="section-title mb-1">Why Choose WBI?</h2>
+						<p class="text-muted mb-4">We do not just teach, we shape futures.</p>
+
+						<div class="why-list">
+							<div class="why-list-item">
+								<div class="why-list-icon"><i class="bi bi-patch-check-fill"></i></div>
+								<div>
+									<h6 class="mb-1">Quality Academic Programs</h6>
+									<p class="mb-0 text-muted">A structured curriculum from kindergarten through senior high school.</p>
+								</div>
+							</div>
+							<div class="why-list-item">
+								<div class="why-list-icon"><i class="bi bi-people-fill"></i></div>
+								<div>
+									<h6 class="mb-1">Experienced and Caring Staff</h6>
+									<p class="mb-0 text-muted">Qualified teachers dedicated to each child's growth and wellbeing.</p>
+								</div>
+							</div>
+							<div class="why-list-item">
+								<div class="why-list-icon"><i class="bi bi-shield-fill-check"></i></div>
+								<div>
+									<h6 class="mb-1">Safe and Nurturing Environment</h6>
+									<p class="mb-0 text-muted">A secure space where students feel valued, confident, and motivated.</p>
+								</div>
+							</div>
+							<div class="why-list-item">
+								<div class="why-list-icon"><i class="bi bi-heart-fill"></i></div>
+								<div>
+									<h6 class="mb-1">Values-Based Education</h6>
+									<p class="mb-0 text-muted">Christ, Character, and Excellence are woven into every lesson.</p>
+								</div>
+							</div>
+						</div>
+
+						<a href="about.php" class="btn btn-school mt-4">Discover More About Us</a>
+					</div>
+
+				</div>
+			</div>
+		</section>
+
+	
+
+	
+
+		<section class="py-5 administration-section" data-animate>
+			<div class="container">
+				<h2 class="section-title text-center mb-2">Meet Our Administration</h2>
+				<p class="text-center text-muted mb-5">The dedicated leaders who guide our school every day.</p>
+				<div class="row g-4 justify-content-center">
+
+					<div class="col-6 col-md-4 col-lg-3">
+						<div class="admin-card text-center fade-left">
+							<div class="admin-photo-wrap">
+								<img src="assets/images/Princapal.jpeg" class="team-photo" alt="Principal">
+							</div>
+							<h6 class="mt-3 mb-1">Mr. Arthur Z Kpogbah </h6>
+							<span class="admin-role">Principal</span>
+						</div>
+					</div>
+
+					<div class="col-6 col-md-4 col-lg-3">
+						<div class="admin-card text-center fade-right">
+							<div class="admin-photo-wrap">
+								<img src="assets/images/SA.png" class="team-photo" alt="Vice Principal">
+							</div>
+							<h6 class="mt-3 mb-1">Mr. G. Alphanso Menyon</h6>
+							<span class="admin-role">Chief Learning Officer</span>
+						</div>
+					</div>
+
+					<div class="col-6 col-md-4 col-lg-3">
+						<div class="admin-card text-center fade-left">
+							<div class="admin-photo-wrap">
+								<img src="assets/images/Dean.jpeg" class="team-photo" alt="Academic Dean">
+							</div>
+							<h6 class="mt-3 mb-1">Ms. Joevina C. Grant</h6>
+							<span class="admin-role">Academic Dean</span>
+						</div>
+					</div>
+
+					<div class="col-6 col-md-4 col-lg-3">
+						<div class="admin-card text-center fade-right">
+							<div class="admin-photo-wrap">
+								<img src="assets/images/Mr. James M. Folley .jpeg" class="team-photo" alt="Bursar">
+							</div>
+							<h6 class="mt-3 mb-1">Mr. James M. Folley</h6>
+							<span class="admin-role">Vice Principal For Instructions</span>
+						</div>
+					</div>
+
+				</div>
+				<div class="text-center mt-4">
+					<a href="about.php#administration" class="btn btn-outline-secondary">View Full Team</a>
+				</div>
+			</div>
+		</section>
+
+		<section class="py-5 downloads-section" data-animate>
+			<div class="container">
+				<div class="downloads-wrap">
+					<div class="text-center mb-4">
+						<h2 class="section-title mb-2">Download School Documents</h2>
+						<p class="text-muted mb-0">Get the latest brochure and information sheet for admissions and programs.</p>
+					</div>
+					<div class="row g-4 justify-content-center">
+						<div class="col-md-6 col-lg-5">
+							<div class="download-card fade-left">
+								<div class="download-icon"><i class="bi bi-file-earmark-pdf-fill"></i></div>
+								<h5 class="mb-2">School Brochure</h5>
+								<p class="mb-3">Overview of our programs, facilities, and student life at William Bean Institute.</p>
+								<a href="assets/uploads/wbi-school-brochure.pdf" class="btn btn-school" download>
+									<i class="bi bi-download me-1"></i> Download Brochure
+								</a>
+							</div>
+						</div>
+						<div class="col-md-6 col-lg-5">
+							<div class="download-card fade-right">
+								<div class="download-icon"><i class="bi bi-file-earmark-text-fill"></i></div>
+								<h5 class="mb-2">Information Sheet</h5>
+								<p class="mb-3">Quick facts on admissions, school calendar, contacts, and key requirements.</p>
+								<a href="assets/uploads/information-sheet.pdf" class="btn btn-outline-secondary" download>
+									<i class="bi bi-download me-1"></i> Download Info Sheet
+								</a>
+							</div>
+						</div>
+					</div>
+					<p class="text-center text-muted small mt-4 mb-0">Need help? Call us at (+231) 886-126-154 for assistance.</p>
+				</div>
+			</div>
+		</section>
+        
+        
+
+		
 		<section class="programs">
 			<div class="container">
 				<h2>Academic Programs</h2>
@@ -194,17 +410,101 @@ $pageTitle = 'Home';
 			</div>
 		</section>
 
-		<section class="principal-message section-soft">
+        	<section class="py-5 parent-testimonials" data-animate>
 			<div class="container">
-				<h2>Message from the Principal</h2>
-				<p>
-					"At WBI, we train students not just for exams, but for life and eternity.
-					We focus on Christ, Character, and Excellence in everything we do."
-				</p>
-				<p><strong>- Mr. Calvin Y. Goffah</strong></p>
-				<a href="principal.php" class="btn secondary">Read Full Message</a>
+				<div class="section-heading">
+					<span class="section-kicker">Parents Speak</span>
+					<h2>Parent Testimonials</h2>
+					<p>What families are saying about their experience at William Bean Institute.</p>
+				</div>
+
+				<div id="parentTestimonials" class="carousel slide" data-bs-ride="carousel" data-bs-interval="6000">
+					<div class="carousel-indicators testimonials-indicators">
+						<button type="button" data-bs-target="#parentTestimonials" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Testimonial 1"></button>
+						<button type="button" data-bs-target="#parentTestimonials" data-bs-slide-to="1" aria-label="Testimonial 2"></button>
+						<button type="button" data-bs-target="#parentTestimonials" data-bs-slide-to="2" aria-label="Testimonial 3"></button>
+					</div>
+
+					<div class="carousel-inner">
+						<div class="carousel-item active">
+							<article class="testimonial-card mx-auto">
+								<img src="assets/images/logo.png" alt="Parent testimonial photo" class="testimonial-photo">
+								<p class="testimonial-quote">"WBI has transformed my child's confidence, discipline, and academic performance. The teachers genuinely care, and we feel supported as parents every step of the way."</p>
+								<h5 class="mb-0">Mrs. Martha Kollie</h5>
+								<small>Parent - Junior High Student</small>
+							</article>
+						</div>
+						<div class="carousel-item">
+							<article class="testimonial-card mx-auto">
+								<img src="assets/images/logo.png" alt="Parent testimonial photo" class="testimonial-photo">
+								<p class="testimonial-quote">"The learning environment is safe, faith-based, and focused on excellence. My daughter has improved in both character and classwork since joining WBI."</p>
+								<h5 class="mb-0">Mr. Emmanuel Doe</h5>
+								<small>Parent - Elementary Student</small>
+							</article>
+						</div>
+						<div class="carousel-item">
+							<article class="testimonial-card mx-auto">
+								<img src="assets/images/logo.png" alt="Parent testimonial photo" class="testimonial-photo">
+								<p class="testimonial-quote">"From communication to academics, WBI continues to exceed our expectations. We are proud to be part of a school that builds both mind and heart."</p>
+								<h5 class="mb-0">Mrs. Sarah Nyemah</h5>
+								<small>Parent - Senior High Student</small>
+							</article>
+						</div>
+					</div>
+
+					<button class="carousel-control-prev" type="button" data-bs-target="#parentTestimonials" data-bs-slide="prev">
+						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+						<span class="visually-hidden">Previous</span>
+					</button>
+					<button class="carousel-control-next" type="button" data-bs-target="#parentTestimonials" data-bs-slide="next">
+						<span class="carousel-control-next-icon" aria-hidden="true"></span>
+						<span class="visually-hidden">Next</span>
+					</button>
+				</div>
 			</div>
 		</section>
+
+		<section class="students-activities py-5" data-animate>
+			<div class="container">
+				<div class="section-heading">
+					<span class="section-kicker">Campus Life</span>
+					<h2>Student Activities</h2>
+					<p>Moments from clubs, sports, chapel programs, field learning, and school-wide events.</p>
+				</div>
+
+				<div class="activity-grid">
+					<?php foreach ($latestActivities as $activity): ?>
+						<article class="activity-card fade-left">
+							<?php if (!empty($activity['image_path'])): ?>
+								<img src="<?php echo htmlspecialchars($activity['image_path']); ?>" alt="<?php echo htmlspecialchars($activity['title']); ?>" class="activity-photo">
+							<?php else: ?>
+								<div class="activity-photo activity-photo-placeholder d-flex align-items-center justify-content-center">
+									<i class="bi bi-camera-fill" aria-hidden="true"></i>
+								</div>
+							<?php endif; ?>
+							<div class="activity-content">
+								<h3><?php echo htmlspecialchars($activity['title']); ?></h3>
+								<p><?php echo htmlspecialchars($activity['summary']); ?></p>
+							</div>
+						</article>
+					<?php endforeach; ?>
+
+					<?php if (empty($latestActivities)): ?>
+						<article class="activity-card text-start">
+							<div class="activity-photo activity-photo-placeholder d-flex align-items-center justify-content-center">
+								<i class="bi bi-camera-fill" aria-hidden="true"></i>
+							</div>
+							<div class="activity-content">
+								<h3>No Student Activities Yet</h3>
+								<p>Activity photos posted from the admin dashboard will appear here.</p>
+							</div>
+						</article>
+					<?php endif; ?>
+				</div>
+			</div>
+		</section>
+
+
 
 		<section class="cta">
 			<div class="container">
@@ -214,18 +514,46 @@ $pageTitle = 'Home';
 			</div>
 		</section>
 
-		<section class="news">
+		<section class="news" data-animate>
 			<div class="container">
 				<h2>Latest News</h2>
 				<div class="news-cards">
-					<article class="card">
-						<h3>Admissions Open</h3>
-						<p>Enrollment for the new academic year is now ongoing.</p>
-					</article>
-					<article class="card">
-						<h3>WAEC Success</h3>
-						<p>WBI students achieve excellent results in WASSCE.</p>
-					</article>
+					<?php foreach ($latestNews as $item): ?>
+						<article class="card text-start">
+							<?php if (!empty($item['image_path'])): ?>
+								<img src="<?php echo htmlspecialchars($item['image_path']); ?>" alt="<?php echo htmlspecialchars($item['title']); ?>" class="img-fluid rounded mb-3" style="width: 100%; max-height: 220px; object-fit: cover;">
+							<?php endif; ?>
+							<h3><?php echo htmlspecialchars($item['title']); ?></h3>
+							<p><strong><?php echo htmlspecialchars($item['summary']); ?></strong></p>
+							<p class="mb-2"><?php echo nl2br(htmlspecialchars($item['content'])); ?></p>
+							<small class="text-muted">Posted: <?php echo date('M d, Y', strtotime($item['created_at'])); ?></small>
+						</article>
+					<?php endforeach; ?>
+					<?php if (empty($latestNews)): ?>
+						<article class="card">
+							<h3>No News Yet</h3>
+							<p>Updates from the school administration will appear here.</p>
+						</article>
+					<?php endif; ?>
+				</div>
+				<div class="text-center mt-4">
+					<a href="news.php" class="btn secondary">View All News</a>
+				</div>
+			</div>
+		</section>
+
+		<section class="py-4 verification-section" data-animate>
+			<div class="container">
+				<div class="verification-cta d-flex flex-column flex-lg-row align-items-center justify-content-between gap-3 gap-lg-4 text-start text-lg-start">
+					<div class="verification-copy">
+						<span class="verification-kicker">Digital Records</span>
+						<h4 class="mb-2 d-flex align-items-center gap-2">
+							<i class="bi bi-patch-check-fill" aria-hidden="true"></i>
+							<span>Student Verification System</span>
+						</h4>
+						<p class="mb-0">Parents and other school partners can verify official records using a unique school UID.</p>
+					</div>
+					<a href="verification.php" class="btn btn-school btn-lg verification-btn">Verify Student Information</a>
 				</div>
 			</div>
 		</section>
