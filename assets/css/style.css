@@ -1617,3 +1617,41 @@ section {
     margin-bottom: 0.4rem;
   }
 }
+
+.partner-logo-badge {
+  width: 74px;
+  height: 74px;
+  border-radius: 14px;
+  background: #fff;
+  border: 1px solid #f1d7de;
+  display: grid;
+  place-items: center;
+  box-shadow: 0 10px 20px rgba(77, 20, 41, 0.1);
+  margin: 0 auto 0.55rem;
+}
+
+.partner-school-logo {
+  width: 56px;
+  height: 56px;
+  object-fit: contain;
+}
+
+.partner-card h3 {
+  margin-bottom: 0.45rem;
+}
+
+.partner-card p {
+  margin-bottom: 0.8rem;
+}
+
+@media (max-width: 575px) {
+  .partner-logo-badge {
+    width: 64px;
+    height: 64px;
+  }
+
+  .partner-school-logo {
+    width: 48px;
+    height: 48px;
+  }
+}

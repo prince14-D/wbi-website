@@ -410,6 +410,55 @@ $yearsInOperation = date('Y') - $foundingYear;
 			</div>
 		</section>
 
+		<section class="py-5 values section-soft" data-animate>
+			<div class="container">
+				<div class="section-heading">
+					<span class="section-kicker">Partnership Network</span>
+					<h2>Partner Schools</h2>
+					<p>WBI collaborates with trusted schools and institutions to strengthen academic pathways, student exchange, and shared learning opportunities.</p>
+				</div>
+
+				<div class="value-cards values-enhanced">
+					<article class="card value-card-item partner-card fade-left text-center">
+						<div class="partner-logo-badge">
+							<img src="https://logo.clearbit.com/hopeacademy.edu" alt="Hope Academy logo" class="partner-school-logo" loading="lazy" onerror="this.src='assets/images/logo.png'">
+						</div>
+						<h3>Hope Academy</h3>
+						<p>Collaborating on foundational literacy and lower school teaching excellence.</p>
+						<a href="https://www.hopeacademy.edu" target="_blank" rel="noopener noreferrer" class="btn btn-outline-secondary btn-sm">Visit Website</a>
+					</article>
+					<article class="card value-card-item partner-card fade-right text-center">
+						<div class="partner-logo-badge">
+							<img src="https://logo.clearbit.com/graceinternationalschool.org" alt="Grace International School logo" class="partner-school-logo" loading="lazy" onerror="this.src='assets/images/logo.png'">
+						</div>
+						<h3>Grace International School</h3>
+						<p>Joint student development activities, leadership forums, and mentoring programs.</p>
+						<a href="https://www.graceinternationalschool.org" target="_blank" rel="noopener noreferrer" class="btn btn-outline-secondary btn-sm">Visit Website</a>
+					</article>
+					<article class="card value-card-item partner-card fade-left text-center">
+						<div class="partner-logo-badge">
+							<img src="https://logo.clearbit.com/libertyhighinstitute.edu" alt="Liberty High Institute logo" class="partner-school-logo" loading="lazy" onerror="this.src='assets/images/logo.png'">
+						</div>
+						<h3>Liberty High Institute</h3>
+						<p>Academic coordination for exam preparation and high school transition support.</p>
+						<a href="https://www.libertyhighinstitute.edu" target="_blank" rel="noopener noreferrer" class="btn btn-outline-secondary btn-sm">Visit Website</a>
+					</article>
+					<article class="card value-card-item partner-card fade-right text-center">
+						<div class="partner-logo-badge">
+							<img src="https://logo.clearbit.com/kingdomchristianschool.edu" alt="Kingdom Christian School logo" class="partner-school-logo" loading="lazy" onerror="this.src='assets/images/logo.png'">
+						</div>
+						<h3>Kingdom Christian School</h3>
+						<p>Faith-based partnership for character formation and values-driven education.</p>
+						<a href="https://www.kingdomchristianschool.edu" target="_blank" rel="noopener noreferrer" class="btn btn-outline-secondary btn-sm">Visit Website</a>
+					</article>
+				</div>
+
+				<div class="text-center mt-4">
+					<a href="contact.php" class="btn btn-school">Become a Partner School</a>
+				</div>
+			</div>
+		</section>
+
         	<section class="py-5 parent-testimonials" data-animate>
 			<div class="container">
 				<div class="section-heading">
