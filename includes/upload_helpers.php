@@ -1,5 +1,24 @@
 <?php
 
+function wbi_prepare_upload_dir($absoluteDir)
+{
+    if (!is_dir($absoluteDir)) {
+        if (!@mkdir($absoluteDir, 0775, true) && !is_dir($absoluteDir)) {
+            return [false, 'Upload directory is missing and could not be created.'];
+        }
+    }
+
+    if (!is_writable($absoluteDir)) {
+        @chmod($absoluteDir, 0775);
+    }
+
+    if (!is_writable($absoluteDir)) {
+        return [false, 'Upload directory is not writable. Please set folder permissions to 755 or 775.'];
+    }
+
+    return [true, ''];
+}
+
 function wbi_handle_post_image_upload($inputName, $existingPath = '')
 {
     if (!isset($_FILES[$inputName]) || !is_array($_FILES[$inputName])) {
@@ -40,6 +59,12 @@ function wbi_handle_post_image_upload($inputName, $existingPath = '')
 
     $extension = $allowed[$mimeType];
     $filename = 'post_' . bin2hex(random_bytes(8)) . '.' . $extension;
+    $uploadDir = __DIR__ . '/../assets/uploads/posts';
+    [$ok, $dirError] = wbi_prepare_upload_dir($uploadDir);
+    if (!$ok) {
+        return ['path' => $existingPath, 'error' => $dirError];
+    }
+
     $relativePath = 'assets/uploads/posts/' . $filename;
     $targetPath = __DIR__ . '/../' . $relativePath;
 
@@ -107,8 +132,9 @@ function wbi_handle_admission_photo_upload($inputName)
     }
 
     $uploadDir = __DIR__ . '/../assets/uploads/admissions';
-    if (!is_dir($uploadDir)) {
-        mkdir($uploadDir, 0775, true);
+    [$ok, $dirError] = wbi_prepare_upload_dir($uploadDir);
+    if (!$ok) {
+        return ['path' => '', 'error' => $dirError];
     }
 
     $filename = 'adm_' . bin2hex(random_bytes(8)) . '.' . $allowed[$mimeType];
@@ -175,8 +201,9 @@ function wbi_handle_transcript_photo_upload($inputName, $existingPath = '')
     }
 
     $uploadDir = __DIR__ . '/../assets/uploads/transcripts';
-    if (!is_dir($uploadDir)) {
-        mkdir($uploadDir, 0775, true);
+    [$ok, $dirError] = wbi_prepare_upload_dir($uploadDir);
+    if (!$ok) {
+        return ['path' => $existingPath, 'error' => $dirError];
     }
 
     $filename = 'tr_' . bin2hex(random_bytes(8)) . '.' . $allowed[$mimeType];
