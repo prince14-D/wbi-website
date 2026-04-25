@@ -252,7 +252,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
                         <div class="card p-4 text-start">
                             <h3 class="h6 mb-2">Need Help?</h3>
-                            <p class="mb-2">Call Admissions Office: (+231) 886-126-154</p>
+                            <p class="mb-2">Call Admissions Office: 0777580532 or 0886543547</p>
                             <a href="contact.php" class="btn btn-outline-secondary btn-sm">Contact Admissions</a>
                         </div>
                     </div>

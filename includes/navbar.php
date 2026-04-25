@@ -2,7 +2,7 @@
   <div class="container">
     <a class="navbar-brand brand-identity" href="index.php">
       <span class="logo-badge" aria-hidden="true">
-        <img src="assets/images/logo.png" width="50" alt="WBI Logo" class="site-logo">
+        <img src="assets/images/WBI-logo.png" width="50" alt="WBI Logo" class="site-logo">
       </span>
       <span class="brand-copy">
         <strong class="school-name">William Bean Institute</strong>
@@ -26,6 +26,7 @@
           <a class="nav-link dropdown-toggle" href="resources.php" id="resourcesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Page</a>
           <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="resourcesDropdown">
             <li><a class="dropdown-item" href="principal.php">Principal</a></li>
+            <li><a class="dropdown-item" href="education-department.php">Education Department</a></li>
             <li><a class="dropdown-item" href="news.php">News</a></li>
             <li><a class="dropdown-item" href="blog.php">Blog</a></li>
             <li><a class="dropdown-item" href="careers.php">Job Vacancy</a></li>

@@ -55,7 +55,7 @@ $yearsInOperation = date('Y') - $foundingYear;
 
 					<div class="carousel-item">
 						<div class="hero-slide">
-							<img src="assets/images/logo.png" alt="WBI Logo" class="hero-slide-image">
+							<img src="assets/images/WBI-logo.png" alt="WBI Logo" class="hero-slide-image">
 							<div class="hero-content container">
 								<h1>Excellence in Academics and Character</h1>
 								<p>Our students are equipped for WAEC success, responsible leadership, and lifelong service.</p>
@@ -119,17 +119,17 @@ $yearsInOperation = date('Y') - $foundingYear;
 	
 
 		<section class="about-preview about-feature" data-animate>
-			<div class="container">
-				<div class="row align-items-center g-4">
-					<div class="col-lg-5 fade-left">
+			<div class="container-fluid about-shell">
+				<div class="row align-items-center g-3">
+					<div class="col-lg-4 fade-left">
 						<div class="about-logo-panel">
-							<img src="assets/images/logo.png" alt="William Bean Institute Logo" class="about-school-logo">
+							<img src="assets/images/WBI-logo.png" alt="William Bean Institute Logo" class="about-school-logo">
 							<p class="school-meta"><strong>Year Established:</strong> April 2, 1982</p>
 							<p class="school-meta"><strong>Type of School:</strong> Faith-based</p>
 						</div>
 					</div>
 
-					<div class="col-lg-7 text-start fade-right">
+					<div class="col-lg-8 text-start fade-right about-copy">
 						<h2>William Bean Institute (WBI)</h2>
 						<p>
 							Located on Duport Road, Monrovia, William Bean Institute (WBI), under the World Wide Missions School System,
@@ -147,11 +147,9 @@ $yearsInOperation = date('Y') - $foundingYear;
 							discipline, and service, WBI shapes both mind and heart. From college pathways to trade and ministry,
 							WBI remains a strong foundation for future leaders.
 						</p>
-						<a href="about.php" class="btn secondary">Read More</a>
+						<a href="about.php" class="btn secondary mt-1">Read More</a>
 					</div>
 				</div>
-
-
 			</div>
 		</section>
 
@@ -167,10 +165,10 @@ $yearsInOperation = date('Y') - $foundingYear;
 			</div>
 		</section>
 
-        	<section class="py-5 proprietor-section" data-animate>
+	        	<section class="py-4 proprietor-section" data-animate>
 			<div class="container">
 				<div class="proprietor-wrap">
-					<div class="row g-4 align-items-center">
+					<div class="row g-3 align-items-center">
 						<div class="col-lg-5 text-center text-lg-start fade-left">
 							<div class="proprietor-photo-frame mx-auto mx-lg-0">
 								<img src="assets/images/Principal.png" class="img-fluid proprietor-photo" alt="Principal portrait">
@@ -179,18 +177,37 @@ $yearsInOperation = date('Y') - $foundingYear;
 						<div class="col-lg-7 text-start fade-right">
 							<span class="proprietor-kicker">Principal's Message</span>
 							<h2 class="section-title mb-3">A Welcome From The Principal</h2>
-								<p class="proprietor-text"><strong>Warm greetings from the family of World Wide Missions School, Duport Road.</strong></p>
-								<p class="proprietor-text">At WBI, we believe every child is a gift from God with a purpose to fulfill. Our duty is simple: train them well for life and for eternity. Each day, our teachers step into the classroom not just to teach subjects, but to shape character, instill discipline, and build competence that will serve Liberia and beyond.</p>
-								<p class="proprietor-text">We hold firm to three pillars: <strong>Christ, Character, and Excellence</strong>. Your child will be challenged academically to meet Ministry of Education standards and pass WASSCE with integrity. They will also be mentored to respect authority, serve others, and work with their hands. We maintain zero tolerance for exam malpractice, drug abuse, and indiscipline, because real education cannot grow where values are broken.</p>
-								<p class="proprietor-text">To our parents: thank you for trusting us. You are partners, not spectators. To our students: come ready to learn, obey, and lead. The future of Liberia sits in these desks.</p>
-								<p class="proprietor-text">WBI is more than a school; it is a mission field and a launchpad. Together, let us raise a generation that is skilled, godly, and fearless.</p>
-							<div class="proprietor-signature mt-3">
+							<p class="proprietor-text"><strong>Warm greetings from the WBI family on Duport Road.</strong></p>
+							<p class="proprietor-text">At William Bean Institute, we raise students who are spiritually grounded, academically strong, and ready to lead with discipline and purpose.</p>
+							<p class="proprietor-text">Our commitment is clear: <strong>Christ, Character, and Excellence</strong> in every classroom, every activity, and every student journey.</p>
+							<div class="proprietor-highlights" aria-label="Principal message highlights">
+								<span>Faith-Centered Learning</span>
+								<span>Strong Academic Standards</span>
+								<span>Leadership & Discipline</span>
+							</div>
+							<div class="proprietor-signature mt-2">
 								<h6 class="mb-0">Mr. Calvin Y. Goffah</h6>
 								<small>Principal, World Wide Missions School</small>
 							</div>
-									<a href="principal.php" class="btn btn-school mt-4">Read More About the Principal</a>
+							<a href="principal.php" class="btn btn-school mt-2">Read More About the Principal</a>
 						</div>
 					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="verification-section" data-animate>
+			<div class="container">
+				<div class="verification-cta d-flex flex-column flex-lg-row align-items-center justify-content-between gap-3 gap-lg-4 text-start text-lg-start">
+					<div class="verification-copy">
+						<span class="verification-kicker">Digital Records</span>
+						<h4 class="mb-2 d-flex align-items-center gap-2">
+							<i class="bi bi-patch-check-fill" aria-hidden="true"></i>
+							<span>Student Verification System</span>
+						</h4>
+						<p class="mb-0">Parents and other school partners can verify official records using a unique school UID.</p>
+					</div>
+					<a href="verification.php" class="btn btn-school btn-lg verification-btn">Verify Student Information</a>
 				</div>
 			</div>
 		</section>
@@ -208,38 +225,50 @@ $yearsInOperation = date('Y') - $foundingYear;
 				</div>
 
 				<div class="value-cards values-enhanced">
-					<article class="card value-card-item fade-left">
-						<div class="value-icon"><i class="bi bi-cross"></i></div>
+					<article class="card value-card-item core-value-card fade-left">
+						<div class="core-value-topline">
+							<span class="core-value-index">01</span>
+							<div class="value-icon"><i class="bi bi-cross"></i></div>
+						</div>
 						<h3>Christ</h3>
-						<p>Faith guides our decisions, relationships, and school culture every day.</p>
+						<p>Faith anchors every decision, relationship, and responsibility across school life.</p>
 					</article>
-					<article class="card value-card-item fade-right">
-						<div class="value-icon"><i class="bi bi-shield-check"></i></div>
+					<article class="card value-card-item core-value-card fade-right">
+						<div class="core-value-topline">
+							<span class="core-value-index">02</span>
+							<div class="value-icon"><i class="bi bi-shield-check"></i></div>
+						</div>
 						<h3>Character</h3>
-						<p>We shape disciplined, respectful, and responsible young leaders.</p>
+						<p>We form disciplined, respectful, and accountable students ready to lead well.</p>
 					</article>
-					<article class="card value-card-item fade-left">
-						<div class="value-icon"><i class="bi bi-award"></i></div>
+					<article class="card value-card-item core-value-card fade-left">
+						<div class="core-value-topline">
+							<span class="core-value-index">03</span>
+							<div class="value-icon"><i class="bi bi-award"></i></div>
+						</div>
 						<h3>Excellence</h3>
-						<p>We pursue high standards in academics, conduct, and performance.</p>
+						<p>We pursue high standards in academics, conduct, and everyday performance.</p>
 					</article>
-					<article class="card value-card-item fade-right">
-						<div class="value-icon"><i class="bi bi-people"></i></div>
+					<article class="card value-card-item core-value-card fade-right">
+						<div class="core-value-topline">
+							<span class="core-value-index">04</span>
+							<div class="value-icon"><i class="bi bi-people"></i></div>
+						</div>
 						<h3>Service</h3>
-						<p>We empower students to serve family, church, nation, and humanity.</p>
+						<p>We empower students to serve family, church, nation, and the wider community.</p>
 					</article>
 				</div>
 			</div>
 		</section>
 
 
-		<section class="py-5 why-choose-section" data-animate>
+				<section class="py-5 why-choose-section" data-animate>
 			<div class="container">
-				<div class="row g-4 align-items-center">
+						<div class="row g-3 align-items-stretch">
 
-					<div class="col-lg-6 fade-left">
+							<div class="col-lg-6 fade-left">
 						<div class="video-panel">
-							<div class="ratio ratio-16x9 rounded overflow-hidden shadow-sm">
+									<div class="video-frame shadow-sm">
 								<iframe src="https://www.youtube.com/embed/SNQtms7IoTE"
 									title="William Bean Institute"
 									allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -249,43 +278,35 @@ $yearsInOperation = date('Y') - $foundingYear;
 						</div>
 					</div>
 
-					<div class="col-lg-6 fade-right">
+							<div class="col-lg-6 fade-right why-choose-copy">
 						<span class="section-kicker">Why Parents Choose WBI</span>
-						<h2 class="section-title mb-1">Why Choose WBI?</h2>
-						<p class="text-muted mb-4">We do not just teach, we shape futures.</p>
+						<h2 class="section-title mb-2">Why Choose WBI?</h2>
+								<p class="text-muted mb-2">We do not just teach, we shape futures through values, structure, and academic excellence.</p>
 
-						<div class="why-list">
-							<div class="why-list-item">
-								<div class="why-list-icon"><i class="bi bi-patch-check-fill"></i></div>
-								<div>
-									<h6 class="mb-1">Quality Academic Programs</h6>
-									<p class="mb-0 text-muted">A structured curriculum from kindergarten through senior high school.</p>
-								</div>
-							</div>
-							<div class="why-list-item">
-								<div class="why-list-icon"><i class="bi bi-people-fill"></i></div>
-								<div>
-									<h6 class="mb-1">Experienced and Caring Staff</h6>
-									<p class="mb-0 text-muted">Qualified teachers dedicated to each child's growth and wellbeing.</p>
-								</div>
-							</div>
-							<div class="why-list-item">
-								<div class="why-list-icon"><i class="bi bi-shield-fill-check"></i></div>
-								<div>
-									<h6 class="mb-1">Safe and Nurturing Environment</h6>
-									<p class="mb-0 text-muted">A secure space where students feel valued, confident, and motivated.</p>
-								</div>
-							</div>
-							<div class="why-list-item">
-								<div class="why-list-icon"><i class="bi bi-heart-fill"></i></div>
-								<div>
-									<h6 class="mb-1">Values-Based Education</h6>
-									<p class="mb-0 text-muted">Christ, Character, and Excellence are woven into every lesson.</p>
-								</div>
-							</div>
+					
+
+						<div class="why-card-grid">
+							<article class="why-card why-card--academics fade-left">
+								<div class="why-card-number">01</div>
+								<div class="why-card-icon"><i class="bi bi-mortarboard"></i></div>
+								<h4 class="why-card-title">Quality Academic Programs</h4>
+								<p class="why-card-description">A structured curriculum from K-12 combining Liberian standards with Christian values.</p>
+							</article>
+
+							<article class="why-card why-card--staff fade-right">
+								<div class="why-card-number">02</div>
+								<div class="why-card-icon"><i class="bi bi-people-fill"></i></div>
+								<h4 class="why-card-title">Expert & Caring Staff</h4>
+								<p class="why-card-description">Dedicated teachers committed to each child's academic growth and character development.</p>
+							</article>
+
+						
 						</div>
 
-						<a href="about.php" class="btn btn-school mt-4">Discover More About Us</a>
+						<div class="why-cta-row">
+							<a href="about.php" class="btn btn-school">Discover More About Us</a>
+							<a href="admissions.php" class="btn btn-outline-secondary">Apply Now</a>
+						</div>
 					</div>
 
 				</div>
@@ -305,40 +326,40 @@ $yearsInOperation = date('Y') - $foundingYear;
 					<div class="col-6 col-md-4 col-lg-3">
 						<div class="admin-card text-center fade-left">
 							<div class="admin-photo-wrap">
-								<img src="assets/images/Princapal.jpeg" class="team-photo" alt="Principal">
+								<img src="assets/images/v_Principal.png" class="team-photo" alt="Principal">
 							</div>
 							<h6 class="mt-3 mb-1">Mr. Arthur Z Kpogbah </h6>
-							<span class="admin-role">Principal</span>
+							<span class="admin-role">Vice Principal for Administration</span>
 						</div>
 					</div>
 
 					<div class="col-6 col-md-4 col-lg-3">
 						<div class="admin-card text-center fade-right">
 							<div class="admin-photo-wrap">
-								<img src="assets/images/SA.png" class="team-photo" alt="Vice Principal">
+								<img src="assets/images/VPI.png" class="team-photo" alt="Vice Principal">
 							</div>
-							<h6 class="mt-3 mb-1">Mr. G. Alphanso Menyon</h6>
-							<span class="admin-role">Chief Learning Officer</span>
+							<h6 class="mt-3 mb-1">Mr. Maxwell Strother</h6>
+							<span class="admin-role">Vice Principal for Instructions</span>
 						</div>
 					</div>
 
 					<div class="col-6 col-md-4 col-lg-3">
 						<div class="admin-card text-center fade-left">
 							<div class="admin-photo-wrap">
-								<img src="assets/images/Dean.jpeg" class="team-photo" alt="Academic Dean">
+								<img src="assets/images/BO.png" class="team-photo" alt="Academic Dean">
 							</div>
-							<h6 class="mt-3 mb-1">Ms. Joevina C. Grant</h6>
-							<span class="admin-role">Academic Dean</span>
+							<h6 class="mt-3 mb-1">Mr. William N. Saydee </h6>
+							<span class="admin-role">Business Manager</span>
 						</div>
 					</div>
 
 					<div class="col-6 col-md-4 col-lg-3">
 						<div class="admin-card text-center fade-right">
 							<div class="admin-photo-wrap">
-								<img src="assets/images/Mr. James M. Folley .jpeg" class="team-photo" alt="Bursar">
+								<img src="assets/images/Registrar.png" class="team-photo" alt="Bursar">
 							</div>
-							<h6 class="mt-3 mb-1">Mr. James M. Folley</h6>
-							<span class="admin-role">Vice Principal For Instructions</span>
+							<h6 class="mt-3 mb-1">Ms. Linda Saah Brown </h6>
+							<span class="admin-role">Register</span>
 						</div>
 					</div>
 
@@ -372,13 +393,13 @@ $yearsInOperation = date('Y') - $foundingYear;
 								<div class="download-icon"><i class="bi bi-file-earmark-text-fill"></i></div>
 								<h5 class="mb-2">Information Sheet</h5>
 								<p class="mb-3">Quick facts on admissions, school calendar, contacts, and key requirements.</p>
-								<a href="assets/uploads/information-sheet.pdf" class="btn btn-outline-secondary" download>
+								<a href="assets/uploads/william information sheet 2025.pdf" class="btn btn-outline-secondary" download>
 									<i class="bi bi-download me-1"></i> Download Info Sheet
 								</a>
 							</div>
 						</div>
 					</div>
-					<p class="text-center text-muted small mt-4 mb-0">Need help? Call us at (+231) 886-126-154 for assistance.</p>
+					<p class="text-center text-muted small mt-4 mb-0">Need help? Call us at 0777580532 or 0886543547 for assistance.</p>
 				</div>
 			</div>
 		</section>
@@ -413,48 +434,48 @@ $yearsInOperation = date('Y') - $foundingYear;
 		<section class="py-5 values section-soft" data-animate>
 			<div class="container">
 				<div class="section-heading">
-					<span class="section-kicker">Partnership Network</span>
-					<h2>Partner Schools</h2>
-					<p>WBI collaborates with trusted schools and institutions to strengthen academic pathways, student exchange, and shared learning opportunities.</p>
+					<span class="section-kicker">School Network</span>
+					<h2>Our Other Branches</h2>
+					<p>William Bean Institute serves families across multiple locations, maintaining one standard of Christ-centered education, discipline, and excellence.</p>
 				</div>
 
 				<div class="value-cards values-enhanced">
 					<article class="card value-card-item partner-card fade-left text-center">
 						<div class="partner-logo-badge">
-							<img src="https://logo.clearbit.com/hopeacademy.edu" alt="Hope Academy logo" class="partner-school-logo" loading="lazy" onerror="this.src='assets/images/logo.png'">
+							<img src="assets/images/WBI-logo.png" alt="WBI Duport Road branch logo" class="partner-school-logo" loading="lazy" onerror="this.src='assets/images/logo.png'">
 						</div>
-						<h3>Hope Academy</h3>
-						<p>Collaborating on foundational literacy and lower school teaching excellence.</p>
-						<a href="https://www.hopeacademy.edu" target="_blank" rel="noopener noreferrer" class="btn btn-outline-secondary btn-sm">Visit Website</a>
+						<h3>WBI Duport Road Campus</h3>
+						<p>Main campus offering strong academic pathways from early learning through senior high school.</p>
+						<a href="contact.php" class="btn btn-outline-secondary btn-sm">Visit Website</a>
 					</article>
 					<article class="card value-card-item partner-card fade-right text-center">
 						<div class="partner-logo-badge">
-							<img src="https://logo.clearbit.com/graceinternationalschool.org" alt="Grace International School logo" class="partner-school-logo" loading="lazy" onerror="this.src='assets/images/logo.png'">
+							<img src="assets/images/WBI-logo.png" alt="WBI Paynesville branch logo" class="partner-school-logo" loading="lazy" onerror="this.src='assets/images/logo.png'">
 						</div>
-						<h3>Grace International School</h3>
-						<p>Joint student development activities, leadership forums, and mentoring programs.</p>
-						<a href="https://www.graceinternationalschool.org" target="_blank" rel="noopener noreferrer" class="btn btn-outline-secondary btn-sm">Visit Website</a>
+						<h3>WBI Paynesville Branch</h3>
+						<p>Focused on quality teaching, structured discipline, and student-centered growth.</p>
+						<a href="contact.php" class="btn btn-outline-secondary btn-sm">Visit Website</a>
 					</article>
 					<article class="card value-card-item partner-card fade-left text-center">
 						<div class="partner-logo-badge">
-							<img src="https://logo.clearbit.com/libertyhighinstitute.edu" alt="Liberty High Institute logo" class="partner-school-logo" loading="lazy" onerror="this.src='assets/images/logo.png'">
+							<img src="assets/images/WBI-logo.png" alt="WBI Monrovia branch logo" class="partner-school-logo" loading="lazy" onerror="this.src='assets/images/logo.png'">
 						</div>
-						<h3>Liberty High Institute</h3>
-						<p>Academic coordination for exam preparation and high school transition support.</p>
-						<a href="https://www.libertyhighinstitute.edu" target="_blank" rel="noopener noreferrer" class="btn btn-outline-secondary btn-sm">Visit Website</a>
+						<h3>WBI Monrovia Branch</h3>
+						<p>Supporting learners with faith-based leadership, exam readiness, and life skills.</p>
+						<a href="contact.php" class="btn btn-outline-secondary btn-sm">Visit Website</a>
 					</article>
 					<article class="card value-card-item partner-card fade-right text-center">
 						<div class="partner-logo-badge">
-							<img src="https://logo.clearbit.com/kingdomchristianschool.edu" alt="Kingdom Christian School logo" class="partner-school-logo" loading="lazy" onerror="this.src='assets/images/logo.png'">
+							<img src="assets/images/WBI-logo.png" alt="WBI regional branch logo" class="partner-school-logo" loading="lazy" onerror="this.src='assets/images/logo.png'">
 						</div>
-						<h3>Kingdom Christian School</h3>
-						<p>Faith-based partnership for character formation and values-driven education.</p>
-						<a href="https://www.kingdomchristianschool.edu" target="_blank" rel="noopener noreferrer" class="btn btn-outline-secondary btn-sm">Visit Website</a>
+						<h3>WBI Regional Branch</h3>
+						<p>Extending the same WBI culture of excellence to serve more families and communities.</p>
+						<a href="contact.php" class="btn btn-outline-secondary btn-sm">Visit Website</a>
 					</article>
 				</div>
 
 				<div class="text-center mt-4">
-					<a href="contact.php" class="btn btn-school">Become a Partner School</a>
+					<a href="contact.php" class="btn btn-school">Contact Our Branches</a>
 				</div>
 			</div>
 		</section>
@@ -591,21 +612,7 @@ $yearsInOperation = date('Y') - $foundingYear;
 			</div>
 		</section>
 
-		<section class="py-4 verification-section" data-animate>
-			<div class="container">
-				<div class="verification-cta d-flex flex-column flex-lg-row align-items-center justify-content-between gap-3 gap-lg-4 text-start text-lg-start">
-					<div class="verification-copy">
-						<span class="verification-kicker">Digital Records</span>
-						<h4 class="mb-2 d-flex align-items-center gap-2">
-							<i class="bi bi-patch-check-fill" aria-hidden="true"></i>
-							<span>Student Verification System</span>
-						</h4>
-						<p class="mb-0">Parents and other school partners can verify official records using a unique school UID.</p>
-					</div>
-					<a href="verification.php" class="btn btn-school btn-lg verification-btn">Verify Student Information</a>
-				</div>
-			</div>
-		</section>
+		
 	</main>
 
 	<?php include __DIR__ . '/includes/footer.php'; ?>

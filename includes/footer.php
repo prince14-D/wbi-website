@@ -2,7 +2,7 @@
   <div class="container footer-grid">
     <div class="footer-block footer-about">
       <div class="footer-brand">
-        <img src="assets/images/logo.png" alt="William Bean Institute Logo" class="footer-logo">
+        <img src="assets/images/WBI-logo.png" alt="William Bean Institute Logo" class="footer-logo">
         <div>
           <h3 class="mb-1">William Bean Institute</h3>
           <p class="footer-subtitle mb-0">World Wide Missions School System</p>
@@ -30,7 +30,7 @@
       <h3>Connect</h3>
       <p><a href="https://portal.wbi.edu.lr">Student E-Portal</a></p>
       <p>Email: <a href="mailto:info@wbi.edu.lr">info@wbi.edu.lr</a></p>
-      <p>Phone: <a href="tel:+231770000000">+231 770 000 000</a></p>
+      <p>Phone: <a href="tel:0777580532">0777580532</a> / <a href="tel:0886543547">0886543547</a></p>
       <p>Office Hours: Mon - Fri, 8:00 AM - 4:00 PM</p>
       <div class="footer-socials" aria-label="Social media links">
         <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" aria-label="Facebook" title="Facebook">
@@ -55,7 +55,7 @@
 <div class="floating-actions" aria-label="Quick actions">
   <a
     class="floating-action-btn floating-action-whatsapp"
-    href="https://wa.me/231770000000?text=Hello%20WBI%2C%20I%20need%20more%20information%20about%20admission."
+    href="https://wa.me/231777580532?text=Hello%20WBI%2C%20I%20need%20more%20information%20about%20admission."
     target="_blank"
     rel="noopener noreferrer"
     aria-label="Chat with WBI on WhatsApp"
@@ -65,7 +65,7 @@
   </a>
   <a
     class="floating-action-btn floating-action-call"
-    href="tel:+231770000000"
+    href="tel:0777580532"
     aria-label="Call WBI"
     title="Call WBI"
   >

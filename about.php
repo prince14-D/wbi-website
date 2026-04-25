@@ -26,7 +26,7 @@ $pageTitle = 'About';
 	<main>
 		<section class="hero p-0 m-0" data-animate>
 			<div class="hero-slide">
-				<img src="assets/images/banner2.png" alt="WBI campus banner" class="hero-slide-image">
+				<img src="assets/images/banner.png" alt="WBI campus banner" class="hero-slide-image">
 				<div class="hero-content container">
 					<h1>About World Wide Missions School (WBI)</h1>
 					<p>Building disciplined, skilled, and Christ-centered leaders from Duport Road to the world.</p>
@@ -43,7 +43,7 @@ $pageTitle = 'About';
 				<div class="row g-4 align-items-center">
 					<div class="col-lg-5 fade-left">
 						<div class="about-logo-panel">
-							<img src="assets/images/logo.png" alt="WBI Logo" class="about-school-logo">
+							<img src="assets/images/WBI-logo.png" alt="WBI Logo" class="about-school-logo">
 							<p class="school-meta"><strong>Established:</strong> April 2, 1982</p>
 							<p class="school-meta"><strong>Type:</strong> Faith-based School</p>
 						</div>
@@ -78,43 +78,37 @@ $pageTitle = 'About';
 			</div>
 		</section>
 
-		<section class="values py-5" data-animate>
-			<div class="container">
+		<section class="values values-clean-white py-5" data-animate>
+			<div class="container-fluid values-full">
 				<div class="section-heading text-center">
 					<span class="section-kicker">Our Foundation</span>
 					<h2 class="section-title">Core Values</h2>
+					<p>Four pillars that guide our teaching, leadership, and student development every day.</p>
 				</div>
 				<div class="row g-4 values-enhanced">
-					<div class="col-sm-6 col-lg-4">
-						<div class="card value-card-item h-100 p-3">
+					<div class="col-12 col-sm-6 col-lg-3">
+						<div class="card value-card-item value-card-modern h-100 p-3">
 							<div class="value-icon"><i class="bi bi-cross"></i></div>
 							<h3 class="h5">Christ</h3>
 							<p class="mb-0">Faith-centered teaching and daily conduct rooted in biblical truth.</p>
 						</div>
 					</div>
-					<div class="col-sm-6 col-lg-4">
-						<div class="card value-card-item h-100 p-3">
+					<div class="col-12 col-sm-6 col-lg-3">
+						<div class="card value-card-item value-card-modern h-100 p-3">
 							<div class="value-icon"><i class="bi bi-person-check"></i></div>
 							<h3 class="h5">Character</h3>
 							<p class="mb-0">Integrity, respect, and responsibility in every classroom and activity.</p>
 						</div>
 					</div>
-					<div class="col-sm-6 col-lg-4">
-						<div class="card value-card-item h-100 p-3">
+					<div class="col-12 col-sm-6 col-lg-3">
+						<div class="card value-card-item value-card-modern h-100 p-3">
 							<div class="value-icon"><i class="bi bi-award"></i></div>
 							<h3 class="h5">Excellence</h3>
 							<p class="mb-0">High academic standards and a culture that celebrates hard work.</p>
 						</div>
 					</div>
-					<div class="col-sm-6 col-lg-4">
-						<div class="card value-card-item h-100 p-3">
-							<div class="value-icon"><i class="bi bi-shield-check"></i></div>
-							<h3 class="h5">Discipline</h3>
-							<p class="mb-0">Orderly learning, self-control, and consistent accountability.</p>
-						</div>
-					</div>
-					<div class="col-sm-6 col-lg-4">
-						<div class="card value-card-item h-100 p-3">
+					<div class="col-12 col-sm-6 col-lg-3">
+						<div class="card value-card-item value-card-modern h-100 p-3">
 							<div class="value-icon"><i class="bi bi-people"></i></div>
 							<h3 class="h5">Service</h3>
 							<p class="mb-0">Preparing students to serve family, church, country, and community.</p>

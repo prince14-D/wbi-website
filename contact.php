@@ -155,7 +155,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 								</div>
 								<div class="col-12 d-grid d-sm-flex gap-2">
 									<button type="submit" class="btn btn-school">Send Message</button>
-									<a href="tel:+231770000000" class="btn btn-outline-secondary">Call Us</a>
+									<a href="tel:0777580532" class="btn btn-outline-secondary">Call Us</a>
 								</div>
 							</form>
 						</div>
@@ -181,7 +181,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 							</div>
 							<div class="mt-3">
 								<p class="mb-2"><i class="bi bi-geo-alt-fill me-2"></i>Duport Road, Paynesville City, Liberia</p>
-								<p class="mb-2"><i class="bi bi-telephone-fill me-2"></i><a href="tel:+231770000000">+231 770 000 000</a></p>
+								<p class="mb-2"><i class="bi bi-telephone-fill me-2"></i><a href="tel:0777580532">0777580532</a> / <a href="tel:0886543547">0886543547</a></p>
 								<p class="mb-0"><i class="bi bi-envelope-fill me-2"></i><a href="mailto:info@wbi.edu.lr">info@wbi.edu.lr</a></p>
 							</div>
 						</div>
@@ -198,7 +198,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 					<div class="col-md-3 col-6">
 						<article class="card value-card-item text-start h-100">
 							<h3><i class="bi bi-telephone-fill me-2"></i>Phone</h3>
-							<p class="mb-0"><a href="tel:+231770000000">+231 770 000 000</a></p>
+							<p class="mb-0"><a href="tel:0777580532">0777580532</a> / <a href="tel:0886543547">0886543547</a></p>
 						</article>
 					</div>
 					<div class="col-md-3 col-6">
