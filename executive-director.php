@@ -20,10 +20,10 @@ $pageTitle = 'Education Director';
 	<link rel="apple-touch-icon" href="assets/images/logo.png">
 	<link rel="stylesheet" href="assets/css/style.css">
 </head>
-<body>
+<body class="executive-page">
 	<?php include __DIR__ . '/includes/header.php'; ?>
 
-	<main>
+	<main class="w-100 m-0">
 		<section class="hero p-0 m-0" data-animate>
 			<div class="hero-slide">
 				<img src="assets/images/banner.png" alt="Education department banner" class="hero-slide-image">

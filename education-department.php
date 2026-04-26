@@ -14,10 +14,10 @@ $pageTitle = 'Education Department';
 	<link rel="shortcut icon" href="assets/images/logo.png">
 	<link rel="stylesheet" href="assets/css/style.css">
 </head>
-<body>
+<body class="education-page">
 	<?php include __DIR__ . '/includes/header.php'; ?>
 
-	<main>
+	<main class="w-100 m-0">
 		<section class="hero hero-slider w-100 m-0">
 			<div class="hero-slide">
 				<img src="assets/images/banner2.png" alt="Education Department banner" class="hero-slide-image">

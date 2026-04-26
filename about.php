@@ -20,10 +20,10 @@ $pageTitle = 'About';
 	<link rel="apple-touch-icon" href="assets/images/logo.png">
 	<link rel="stylesheet" href="assets/css/style.css">
 </head>
-<body>
+<body class="about-page">
 	<?php include __DIR__ . '/includes/header.php'; ?>
 
-	<main>
+	<main class="w-100 m-0">
 		<section class="hero p-0 m-0" data-animate>
 			<div class="hero-slide">
 				<img src="assets/images/banner.png" alt="WBI campus banner" class="hero-slide-image">
@@ -147,13 +147,13 @@ $pageTitle = 'About';
 			</div>
 		</section>
 
-		<section class="py-5 administration-section" data-animate id="administration">
-			<div class="container">
+		<section class="py-5 administration-section w-100 m-0" data-animate id="administration">
+			<div class="container-fluid w-100 px-0">
 				<h2 class="section-title text-center mb-2">Meet Our Administration</h2>
 				<p class="text-center text-muted mb-5">The dedicated leaders who guide our school every day.</p>
-				<div class="row g-4 justify-content-center">
+				<div class="row g-4 mx-0">
 
-					<div class="col-6 col-md-4 col-lg-3">
+					<div class="col-12 col-lg-3">
 						<div class="admin-card text-center fade-left">
 							<div class="admin-photo-wrap">
 								<img src="assets/images/Principal.png" class="team-photo" alt="Principal">
@@ -163,7 +163,7 @@ $pageTitle = 'About';
 						</div>
 					</div>
 
-					<div class="col-6 col-md-4 col-lg-3">
+					<div class="col-12 col-lg-3">
 						<div class="admin-card text-center fade-right">
 							<div class="admin-photo-wrap">
 								<img src="assets/images/v_Principal.png" class="team-photo" alt="Principal">
@@ -173,7 +173,7 @@ $pageTitle = 'About';
 						</div>
 					</div>
 
-					<div class="col-6 col-md-4 col-lg-3">
+					<div class="col-12 col-lg-3">
 						<div class="admin-card text-center fade-right">
 							<div class="admin-photo-wrap">
 								<img src="assets/images/VPI.png" class="team-photo" alt="Vice Principal">
@@ -183,7 +183,7 @@ $pageTitle = 'About';
 						</div>
 					</div>
 
-					<div class="col-6 col-md-4 col-lg-3">
+					<div class="col-12 col-lg-3">
 						<div class="admin-card text-center fade-left">
 							<div class="admin-photo-wrap">
 								<img src="assets/images/BO.png" class="team-photo" alt="Academic Dean">
@@ -193,7 +193,7 @@ $pageTitle = 'About';
 						</div>
 					</div>
 
-					<div class="col-6 col-md-4 col-lg-3">
+					<div class="col-12 col-lg-3">
 						<div class="admin-card text-center fade-right">
 							<div class="admin-photo-wrap">
 								<img src="assets/images/Registrar.png" class="team-photo" alt="Bursar">
@@ -203,7 +203,7 @@ $pageTitle = 'About';
 						</div>
 					</div>
 
-					<div class="col-6 col-md-4 col-lg-3">
+					<div class="col-12 col-lg-3">
 						<div class="admin-card text-center fade-left">
 							<div class="admin-photo-wrap">
 								<img src="assets/images/DOSA.png" class="team-photo" alt="Dean">

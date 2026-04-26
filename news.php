@@ -16,10 +16,10 @@ $otherNews = array_slice($newsItems, 1);
   <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
-<body>
+<body class="news-page">
   <?php include __DIR__ . '/includes/header.php'; ?>
 
-  <main>
+  <main class="w-100 m-0">
     <section class="hero p-0 m-0" data-animate>
       <div class="hero-slide">
         <img src="assets/images/banner.png" alt="WBI news banner" class="hero-slide-image">

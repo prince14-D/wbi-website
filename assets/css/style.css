@@ -57,11 +57,397 @@ body.home-page .container-fluid {
   padding-right: clamp(12px, 2.2vw, 36px);
 }
 
-@media (max-width: 576px) {
+@media (max-width: 768px) {
+  body.home-page section {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
   body.home-page .container,
   body.home-page .container-fluid {
+    width: 100%;
+    max-width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  body.home-page .row {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+/* About page mobile full-width layout */
+@media (max-width: 768px) {
+  body.about-page {
+    margin: 0;
+    width: 100%;
+    overflow-x: hidden;
+  }
+
+  body.about-page main,
+  body.about-page section,
+  body.about-page .site-header,
+  body.about-page .site-footer {
+    width: 100%;
+    margin: 0;
+  }
+
+  body.about-page .container,
+  body.about-page .container-fluid {
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
     padding-left: 12px;
     padding-right: 12px;
+  }
+}
+
+@media (max-width: 991.98px) {
+  body.about-page #administration .row {
+    --bs-gutter-x: 0;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  body.about-page #administration .container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  body.about-page #administration .row > div {
+    flex: 0 0 100%;
+    width: 100%;
+    max-width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  body.about-page #administration .admin-card {
+    width: 100%;
+    border-radius: 0;
+  }
+}
+
+/* Admissions page mobile full-width layout */
+@media (max-width: 768px) {
+  body.admissions-page {
+    margin: 0;
+    width: 100%;
+    overflow-x: hidden;
+  }
+
+  body.admissions-page main,
+  body.admissions-page section,
+  body.admissions-page .site-header,
+  body.admissions-page .site-footer {
+    width: 100%;
+    margin: 0;
+  }
+
+  body.admissions-page section {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  body.admissions-page .container,
+  body.admissions-page .container-fluid {
+    width: 100%;
+    max-width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  body.admissions-page .row {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+/* Academics page mobile full-width layout */
+@media (max-width: 768px) {
+  body.academics-page {
+    margin: 0;
+    width: 100%;
+    overflow-x: hidden;
+  }
+
+  body.academics-page main,
+  body.academics-page section,
+  body.academics-page .site-header,
+  body.academics-page .site-footer {
+    width: 100%;
+    margin: 0;
+  }
+
+  body.academics-page section {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  body.academics-page .container,
+  body.academics-page .container-fluid {
+    width: 100%;
+    max-width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  body.academics-page .row {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+/* Executive Director page mobile full-width layout */
+@media (max-width: 768px) {
+  body.executive-page {
+    margin: 0;
+    width: 100%;
+    overflow-x: hidden;
+  }
+
+  body.executive-page main,
+  body.executive-page section,
+  body.executive-page .site-header,
+  body.executive-page .site-footer {
+    width: 100%;
+    margin: 0;
+  }
+
+  body.executive-page section {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  body.executive-page .container,
+  body.executive-page .container-fluid {
+    width: 100%;
+    max-width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  body.executive-page .row {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+/* Education Department page mobile full-width layout */
+@media (max-width: 768px) {
+  body.education-page {
+    margin: 0;
+    width: 100%;
+    overflow-x: hidden;
+  }
+
+  body.education-page main,
+  body.education-page section,
+  body.education-page .site-header,
+  body.education-page .site-footer {
+    width: 100%;
+    margin: 0;
+  }
+
+  body.education-page section {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  body.education-page .container,
+  body.education-page .container-fluid {
+    width: 100%;
+    max-width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  body.education-page .row {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+/* Staff page mobile full-width layout */
+@media (max-width: 768px) {
+  body.staff-page {
+    margin: 0;
+    width: 100%;
+    overflow-x: hidden;
+  }
+
+  body.staff-page main,
+  body.staff-page section,
+  body.staff-page .site-header,
+  body.staff-page .site-footer {
+    width: 100%;
+    margin: 0;
+  }
+
+  body.staff-page section {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  body.staff-page .container,
+  body.staff-page .container-fluid {
+    width: 100%;
+    max-width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  body.staff-page .row {
+    margin-left: 0;
+    margin-right: 0;
+    --bs-gutter-x: 0;
+  }
+
+  body.staff-page .row > [class*="col-"] {
+    flex: 0 0 100%;
+    width: 100%;
+    max-width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+/* Contact page mobile full-width layout */
+@media (max-width: 768px) {
+  body.contact-page {
+    margin: 0;
+    width: 100%;
+    overflow-x: hidden;
+  }
+
+  body.contact-page main,
+  body.contact-page section,
+  body.contact-page .site-header,
+  body.contact-page .site-footer {
+    width: 100%;
+    margin: 0;
+  }
+
+  body.contact-page section {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  body.contact-page .container,
+  body.contact-page .container-fluid {
+    width: 100%;
+    max-width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  body.contact-page .row {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+/* Principal page mobile full-width layout */
+@media (max-width: 768px) {
+  body.principal-page {
+    margin: 0;
+    width: 100%;
+    overflow-x: hidden;
+  }
+
+  body.principal-page main,
+  body.principal-page section,
+  body.principal-page .site-header,
+  body.principal-page .site-footer {
+    width: 100%;
+    margin: 0;
+  }
+
+  body.principal-page section {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  body.principal-page .container,
+  body.principal-page .container-fluid {
+    width: 100%;
+    max-width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  body.principal-page .row {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+/* News page mobile full-width layout */
+@media (max-width: 768px) {
+  body.news-page {
+    margin: 0;
+    width: 100%;
+    overflow-x: hidden;
+  }
+
+  body.news-page main,
+  body.news-page section,
+  body.news-page .site-header,
+  body.news-page .site-footer {
+    width: 100%;
+    margin: 0;
+  }
+
+  body.news-page section {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  body.news-page .container,
+  body.news-page .container-fluid {
+    width: 100%;
+    max-width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  body.news-page .row {
+    margin-left: 0;
+    margin-right: 0;
+    --bs-gutter-x: 0;
+  }
+
+  body.news-page .row > [class*="col-"] {
+    flex: 0 0 100%;
+    width: 100%;
+    max-width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  body.news-page .news-cards,
+  body.news-page .value-cards,
+  body.news-page .program-cards {
+    grid-template-columns: 1fr;
   }
 }
 

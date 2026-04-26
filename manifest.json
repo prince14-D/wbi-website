@@ -7,12 +7,12 @@
   "theme_color": "#1E4FA3",
   "icons": [
     {
-      "src": "assets/images/logo.png",
+      "src": "assets/images/WBI-logo.png",
       "sizes": "192x192",
       "type": "image/png"
     },
     {
-      "src": "assets/images/logo.png",
+      "src": "assets/images/WBI-logo.png",
       "sizes": "512x512",
       "type": "image/png"
     }
