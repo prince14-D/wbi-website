@@ -237,7 +237,7 @@ $pageTitle = 'Education Department';
 					<div class="col-sm-6 col-lg-3">
 						<div class="admin-card text-center h-100 fade-left">
 							<div class="admin-photo-wrap">
-								<img src="assets/images/logo.png" class="team-photo" alt="Past Education Director">
+								<img src="assets/images/Roujee.png" class="team-photo" alt="Past Education Director">
 							</div>
 							<span class="badge text-bg-light border mb-2">Late 1970s</span>
 							<h6 class="mt-2 mb-1">Mr. Roujee Morris</h6>
@@ -259,10 +259,10 @@ $pageTitle = 'Education Department';
 					<div class="col-sm-6 col-lg-3">
 						<div class="admin-card text-center h-100 fade-left">
 							<div class="admin-photo-wrap">
-								<img src="assets/images/Constant.png" class="team-photo" alt="Past Education Director">
+								<img src="assets/images/karnga.png" class="team-photo" alt="Past Education Director">
 							</div>
-							<span class="badge text-bg-light border mb-2">2022-2025</span>
-							<h6 class="mt-2 mb-1">Mr. Constant C. Pee</h6>
+							<span class="badge text-bg-light border mb-2">2004-2021</span>
+							<h6 class="mt-2 mb-1">Mr. Benjiman Karnga</h6>
 							<span class="admin-role">Education Director</span>
 						</div>
 					</div>
@@ -270,10 +270,10 @@ $pageTitle = 'Education Department';
 					<div class="col-sm-6 col-lg-3">
 						<div class="admin-card text-center h-100 fade-right">
 							<div class="admin-photo-wrap">
-								<img src="assets/images/karnga.png" class="team-photo" alt="Past Education Director">
+								<img src="assets/images/Constant.png" class="team-photo" alt="Past Education Director">
 							</div>
-							<span class="badge text-bg-light border mb-2">2004-2021</span>
-							<h6 class="mt-2 mb-1">Mr. Benjiman Karnga </h6>
+							<span class="badge text-bg-light border mb-2">2021-2024</span>
+							<h6 class="mt-2 mb-1">Mr. Constant C. Pee</h6>
 							<span class="admin-role">Education Director/span>
 						</div>
 					</div>
@@ -292,6 +292,36 @@ $pageTitle = 'Education Department';
 							<span class="badge text-bg-success mb-2">2025 - Present</span>
 							<h6 class="mt-2 mb-1">Mr. G. Alphonso Menyon</h6>
 							<span class="admin-role">Education Director</span>
+						</div>
+					</div>
+					<div class="col-sm-6 col-lg-3">
+						<div class="admin-card text-center h-100 fade-right">
+							<div class="admin-photo-wrap">
+								<img src="assets/images/Holder.png" class="team-photo" alt="Human Resources Manager">
+							</div>
+							<span class="badge text-bg-success mb-2">2025 - Present</span>
+							<h6 class="mt-2 mb-1">Ms. Dehkontee T. Holder</h6>
+							<span class="admin-role">Human Resources Manager</span>
+						</div>
+					</div>
+					<div class="col-sm-6 col-lg-3">
+						<div class="admin-card text-center h-100 fade-left">
+							<div class="admin-photo-wrap">
+								<img src="assets/images/Mercy.png" class="team-photo" alt="Chief Financial Officer">
+							</div>
+							<span class="badge text-bg-success mb-2">2025 - Present</span>
+							<h6 class="mt-2 mb-1">Mrs. Mercy Jocab Kollie</h6>
+							<span class="admin-role">Chief Financial Officer</span>
+						</div>
+					</div>
+					<div class="col-sm-6 col-lg-3">
+						<div class="admin-card text-center h-100 fade-right">
+							<div class="admin-photo-wrap">
+								<img src="assets/images/Jonathan.png" class="team-photo" alt="IT Controller">
+							</div>
+							<span class="badge text-bg-success mb-2">2025 - Present</span>
+							<h6 class="mt-2 mb-1">Mr. Jonathan A. Karnga</h6>
+							<span class="admin-role">IT Controller</span>
 						</div>
 					</div>
 				</div>

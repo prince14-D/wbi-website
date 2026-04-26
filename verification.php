@@ -67,10 +67,10 @@ $lastUpdated = $totalTranscripts > 0 ? ($transcripts[0]['updated_at'] ?? $transc
   <link rel="apple-touch-icon" href="assets/images/WBI-logo.png">
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
-<body>
+<body class="verification-page">
   <?php include __DIR__ . '/includes/header.php'; ?>
 
-  <main>
+  <main class="w-100 m-0">
     <section class="hero p-0 m-0" data-animate>
       <div class="hero-slide">
         <img src="assets/images/banner1.png" alt="Transcript verification banner" class="hero-slide-image">

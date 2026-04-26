@@ -26,7 +26,7 @@ $pageTitle = 'Academics';
 	<main class="w-100 m-0">
 		<section class="hero p-0 m-0" data-animate>
 			<div class="hero-slide">
-				<img src="assets/images/banner2.png" alt="WBI academics banner" class="hero-slide-image">
+				<img src="assets/images/banner.png" alt="WBI academics banner" class="hero-slide-image">
 				<div class="hero-content container">
 					<h1>Academics at World Wide Missions School</h1>
 					<p>Structured programs, clear standards, and Christ-centered learning from kindergarten to senior high.</p>

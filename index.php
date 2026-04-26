@@ -215,45 +215,33 @@ $yearsInOperation = date('Y') - $foundingYear;
 
         <section class="values section-soft" data-animate>
 			<div class="container">
-				<div class="section-heading">
+				<div class="section-heading text-center">
 					<span class="section-kicker">WBI Identity</span>
 					<h2>Our Core Values</h2>
 					<p>
-						At WBI, values are not only taught in class, they are lived daily through worship,
-						learning, discipline, and community impact.
+						At WBI, our values are not only taught in class, they are practiced daily through
+						worship, learning, discipline, and service.
 					</p>
 				</div>
 
-				<div class="value-cards values-enhanced">
+				<div class="value-cards values-enhanced core-values-grid">
 					<article class="card value-card-item core-value-card fade-left">
-						<div class="core-value-topline">
-							<span class="core-value-index">01</span>
-							<div class="value-icon"><i class="bi bi-cross"></i></div>
-						</div>
+						<div class="value-icon"><i class="bi bi-cross"></i></div>
 						<h3>Christ</h3>
 						<p>Faith anchors every decision, relationship, and responsibility across school life.</p>
 					</article>
 					<article class="card value-card-item core-value-card fade-right">
-						<div class="core-value-topline">
-							<span class="core-value-index">02</span>
-							<div class="value-icon"><i class="bi bi-shield-check"></i></div>
-						</div>
+						<div class="value-icon"><i class="bi bi-shield-check"></i></div>
 						<h3>Character</h3>
 						<p>We form disciplined, respectful, and accountable students ready to lead well.</p>
 					</article>
 					<article class="card value-card-item core-value-card fade-left">
-						<div class="core-value-topline">
-							<span class="core-value-index">03</span>
-							<div class="value-icon"><i class="bi bi-award"></i></div>
-						</div>
+						<div class="value-icon"><i class="bi bi-award"></i></div>
 						<h3>Excellence</h3>
 						<p>We pursue high standards in academics, conduct, and everyday performance.</p>
 					</article>
 					<article class="card value-card-item core-value-card fade-right">
-						<div class="core-value-topline">
-							<span class="core-value-index">04</span>
-							<div class="value-icon"><i class="bi bi-people"></i></div>
-						</div>
+						<div class="value-icon"><i class="bi bi-people"></i></div>
 						<h3>Service</h3>
 						<p>We empower students to serve family, church, nation, and the wider community.</p>
 					</article>
@@ -288,14 +276,14 @@ $yearsInOperation = date('Y') - $foundingYear;
 						<div class="why-card-grid">
 							<article class="why-card why-card--academics fade-left">
 								<div class="why-card-number">01</div>
-								<div class="why-card-icon"><i class="bi bi-mortarboard"></i></div>
+								<p class="why-card-meta">Academic Excellence</p>
 								<h4 class="why-card-title">Quality Academic Programs</h4>
 								<p class="why-card-description">A structured curriculum from K-12 combining Liberian standards with Christian values.</p>
 							</article>
 
 							<article class="why-card why-card--staff fade-right">
 								<div class="why-card-number">02</div>
-								<div class="why-card-icon"><i class="bi bi-people-fill"></i></div>
+								<p class="why-card-meta">Student Support</p>
 								<h4 class="why-card-title">Expert & Caring Staff</h4>
 								<p class="why-card-description">Dedicated teachers committed to each child's academic growth and character development.</p>
 							</article>
@@ -407,25 +395,33 @@ $yearsInOperation = date('Y') - $foundingYear;
         
 
 		
-		<section class="programs">
+		<section class="programs section-soft py-5" data-animate>
 			<div class="container">
-				<h2>Academic Programs</h2>
-				<div class="program-cards">
-					<article class="card">
+				<div class="section-heading text-center">
+					<span class="section-kicker">Learning Pathways</span>
+					<h2 class="section-title">Academic Programs</h2>
+					<p>Structured learning from early years to senior high, designed to build knowledge, discipline, and confidence.</p>
+				</div>
+				<div class="program-cards programs-grid">
+					<article class="card program-card-modern">
+						<span class="program-level">Early Learning</span>
 						<h3>Kindergarten</h3>
-						<p>Strong foundation in literacy, numeracy, and values.</p>
+						<p>Strong foundations in literacy, numeracy, creativity, and Christian character.</p>
 					</article>
-					<article class="card">
+					<article class="card program-card-modern">
+						<span class="program-level">Primary Education</span>
 						<h3>Elementary</h3>
-						<p>Core subjects with discipline and creativity.</p>
+						<p>Core subjects taught with discipline, guided practice, and healthy classroom engagement.</p>
 					</article>
-					<article class="card">
+					<article class="card program-card-modern">
+						<span class="program-level">Junior Secondary</span>
 						<h3>Junior High</h3>
-						<p>Preparation for BECE with structured learning.</p>
+						<p>Preparation for BECE with structured learning, leadership growth, and academic support.</p>
 					</article>
-					<article class="card">
+					<article class="card program-card-modern">
+						<span class="program-level">Senior Secondary</span>
 						<h3>Senior High</h3>
-						<p>WAEC-focused education with career readiness.</p>
+						<p>WAEC-focused education paired with career readiness, responsibility, and life skills.</p>
 					</article>
 				</div>
 			</div>
@@ -436,7 +432,7 @@ $yearsInOperation = date('Y') - $foundingYear;
 				<div class="section-heading">
 					<span class="section-kicker">School Network</span>
 					<h2>Our Other Branches</h2>
-					<p>William Bean Institute serves families across multiple locations, maintaining one standard of Christ-centered education, discipline, and excellence.</p>
+					<p>World Wide Mission serves families across multiple locations, maintaining one standard of Christ-centered education, discipline, and excellence.</p>
 				</div>
 
 				<div class="value-cards values-enhanced">

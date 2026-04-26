@@ -120,7 +120,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <main class="w-100 m-0">
         <section class="hero p-0 m-0" data-animate>
             <div class="hero-slide">
-                <img src="assets/images/banner2.png" alt="WBI admissions banner" class="hero-slide-image">
+                <img src="assets/images/banner.png" alt="WBI admissions banner" class="hero-slide-image">
                 <div class="hero-content container">
                     <h1>Admissions at World Wide Missions School</h1>
                     <p>Register new or returning students online and track your admission result quickly.</p>
