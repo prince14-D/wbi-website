@@ -147,44 +147,72 @@ $pageTitle = 'About';
 			</div>
 		</section>
 
-		<section class="administration-section py-5" data-animate>
+		<section class="py-5 administration-section" data-animate id="administration">
 			<div class="container">
-				<div class="section-heading text-center">
-					<span class="section-kicker">Leadership</span>
-					<h2 class="section-title">Our Team</h2>
-					<p>Meet the dedicated school leadership guiding WBI's academic and spiritual growth.</p>
-				</div>
+				<h2 class="section-title text-center mb-2">Meet Our Administration</h2>
+				<p class="text-center text-muted mb-5">The dedicated leaders who guide our school every day.</p>
 				<div class="row g-4 justify-content-center">
-					<div class="col-sm-6 col-lg-4 fade-up">
-						<div class="admin-card text-center">
+
+					<div class="col-6 col-md-4 col-lg-3">
+						<div class="admin-card text-center fade-left">
 							<div class="admin-photo-wrap">
-								<img src="assets/images/Principal.png" alt="School Principal" class="team-photo">
+								<img src="assets/images/Principal.png" class="team-photo" alt="Principal">
 							</div>
-							<h3 class="h5 mt-3 mb-1">Principal</h3>
-							<span class="admin-role">Academic Leadership</span>
-							<p class="mt-3 mb-0">Oversees teaching quality, student discipline, and school-wide excellence.</p>
+							<h6 class="mt-3 mb-1">Mr. Calvin Y. Goffah</h6>
+							<span class="admin-role">Principal</span>
 						</div>
 					</div>
-					<div class="col-sm-6 col-lg-4 fade-up">
-						<div class="admin-card text-center">
+
+					<div class="col-6 col-md-4 col-lg-3">
+						<div class="admin-card text-center fade-right">
 							<div class="admin-photo-wrap">
-								<img src="assets/images/logo.png" alt="WBI Administration" class="team-photo">
+								<img src="assets/images/v_Principal.png" class="team-photo" alt="Principal">
 							</div>
-							<h3 class="h5 mt-3 mb-1">Administration</h3>
-							<span class="admin-role">Operations &amp; Student Affairs</span>
-							<p class="mt-3 mb-0">Supports admissions, records, parent communication, and school operations.</p>
+							<h6 class="mt-3 mb-1">Mr. Arthur Z Kpogbah </h6>
+							<span class="admin-role">Vice Principal for Administration</span>
 						</div>
 					</div>
-					<div class="col-sm-6 col-lg-4 fade-up">
-						<div class="admin-card text-center">
+
+					<div class="col-6 col-md-4 col-lg-3">
+						<div class="admin-card text-center fade-right">
 							<div class="admin-photo-wrap">
-								<img src="assets/images/logo.png" alt="WBI Teachers" class="team-photo">
+								<img src="assets/images/VPI.png" class="team-photo" alt="Vice Principal">
 							</div>
-							<h3 class="h5 mt-3 mb-1">Teachers</h3>
-							<span class="admin-role">Classroom Mentors</span>
-							<p class="mt-3 mb-0">Dedicated educators nurturing knowledge, confidence, and godly character.</p>
+							<h6 class="mt-3 mb-1">Mr. Maxwell Strother</h6>
+							<span class="admin-role">Vice Principal for Instructions</span>
 						</div>
 					</div>
+
+					<div class="col-6 col-md-4 col-lg-3">
+						<div class="admin-card text-center fade-left">
+							<div class="admin-photo-wrap">
+								<img src="assets/images/BO.png" class="team-photo" alt="Academic Dean">
+							</div>
+							<h6 class="mt-3 mb-1">Mr. William N. Saydee </h6>
+							<span class="admin-role">Business Manager</span>
+						</div>
+					</div>
+
+					<div class="col-6 col-md-4 col-lg-3">
+						<div class="admin-card text-center fade-right">
+							<div class="admin-photo-wrap">
+								<img src="assets/images/Registrar.png" class="team-photo" alt="Bursar">
+							</div>
+							<h6 class="mt-3 mb-1">Ms. Linda Saah Brown </h6>
+							<span class="admin-role">Register</span>
+						</div>
+					</div>
+
+					<div class="col-6 col-md-4 col-lg-3">
+						<div class="admin-card text-center fade-left">
+							<div class="admin-photo-wrap">
+								<img src="assets/images/DOSA.png" class="team-photo" alt="Dean">
+							</div>
+							<h6 class="mt-3 mb-1">Sarina Blessing Eastman</h6>
+							<span class="admin-role">Dean of Admission and Student Affairs</span>
+						</div>
+					</div>
+
 				</div>
 			</div>
 		</section>

@@ -44,7 +44,7 @@ $pageTitle = 'Education Director';
 					<div class="row g-4 align-items-center">
 						<div class="col-lg-4 text-center fade-left">
 							<div class="proprietor-photo-frame mx-auto">
-								<img src="assets/images/Principal.png" class="img-fluid proprietor-photo" alt="Education Director portrait">
+								<img src="assets/images/ED.png" class="img-fluid proprietor-photo" alt="Education Director portrait">
 							</div>
 						</div>
 						<div class="col-lg-8 text-start fade-right">
@@ -66,40 +66,61 @@ $pageTitle = 'Education Director';
 			</div>
 		</section>
 
-		<section class="py-5 values section-soft" data-animate>
+		<section class="py-5 values values-clean-white" data-animate>
 			<div class="container">
-				<div class="section-heading">
+				<div class="section-heading text-center">
 					<span class="section-kicker">Academic Focus</span>
-					<h2>Certificate Programs</h2>
-					<p>Practical learning pathways that build employable skills alongside strong academic grounding.</p>
+					<h2 class="section-title">Certificate Programs</h2>
+					<p>Practical, career-focused pathways that build employable skills while reinforcing strong academic foundations.</p>
 				</div>
 
-				<div class="value-cards values-enhanced">
-					<article class="card value-card-item text-start">
+				<div class="value-cards values-enhanced mt-4">
+					<article class="card value-card-item value-card-modern text-start h-100">
 						<div class="value-icon"><i class="bi bi-cpu"></i></div>
 						<h3>Biomedical Technology</h3>
-						<p>Students gain foundational exposure to applied science and health support systems.</p>
+						<p class="mb-0">Students gain foundational exposure to applied science, diagnostics support, and essential health systems.</p>
 					</article>
-					<article class="card value-card-item text-start">
+					<article class="card value-card-item value-card-modern text-start h-100">
 						<div class="value-icon"><i class="bi bi-lightning-charge"></i></div>
 						<h3>Electrical Technology</h3>
-						<p>Hands-on electrical concepts, safety, and basic installation skills for future careers.</p>
+						<p class="mb-0">Hands-on electrical concepts, safety practice, and introductory installation skills for future careers.</p>
 					</article>
-					<article class="card value-card-item text-start">
+					<article class="card value-card-item value-card-modern text-start h-100">
 						<div class="value-icon"><i class="bi bi-droplet-half"></i></div>
 						<h3>Plumbing</h3>
-						<p>Practical plumbing awareness that supports technical competence and problem solving.</p>
+						<p class="mb-0">Practical plumbing awareness that supports technical competence, maintenance confidence, and problem-solving.</p>
 					</article>
-					<article class="card value-card-item text-start">
+					<article class="card value-card-item value-card-modern text-start h-100">
 						<div class="value-icon"><i class="bi bi-broadcast-pin"></i></div>
 						<h3>Applied Electronics Technology</h3>
-						<p>Technical instruction focused on circuits, devices, and modern electronic systems.</p>
+						<p class="mb-0">Technical instruction focused on circuits, components, troubleshooting, and modern electronic systems.</p>
 					</article>
-					<article class="card value-card-item text-start">
+					<article class="card value-card-item value-card-modern text-start h-100">
 						<div class="value-icon"><i class="bi bi-wrench-adjustable"></i></div>
 						<h3>Automotive Repair</h3>
-						<p>Basic vehicle maintenance and repair skills that prepare learners for the workplace.</p>
+						<p class="mb-0">Basic vehicle inspection, maintenance, and repair skills that prepare learners for workplace readiness.</p>
 					</article>
+				</div>
+
+				<div class="text-center mt-4">
+					<p class="mb-0 text-muted">Each program blends discipline, practical training, and mentorship to support student success.</p>
+				</div>
+			</div>
+		</section>
+
+		<section class="py-5" data-animate>
+			<div class="container">
+				<div class="admissions-cta p-4 p-md-5 text-center text-md-start">
+					<div class="row align-items-center g-3">
+						<div class="col-md-8">
+							<span class="section-kicker">Apply</span>
+							<h2 class="section-title text-white mb-2">Ready to Apply?</h2>
+							<p class="mb-0">Take the next step toward quality, Christ-centered education and practical skill development at WBI.</p>
+						</div>
+						<div class="col-md-4 text-md-end">
+							<a href="admissions.php" class="btn btn-school btn-lg">Apply for Admission</a>
+						</div>
+					</div>
 				</div>
 			</div>
 		</section>

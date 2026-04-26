@@ -26,7 +26,7 @@ $pageTitle = 'Staff';
 	<main>
 		<section class="hero p-0 m-0" data-animate>
 			<div class="hero-slide">
-				<img src="assets/images/banner2.png" alt="WBI staff banner" class="hero-slide-image">
+				<img src="assets/images/banner.png" alt="WBI staff banner" class="hero-slide-image">
 				<div class="hero-content container">
 					<h1>Our Staff</h1>
 					<p>Meet the administration, teachers, and supporting staff who serve with discipline, care, and excellence.</p>
@@ -42,46 +42,71 @@ $pageTitle = 'Staff';
 			<div class="container">
 				<div class="section-heading text-center">
 					<span class="section-kicker">Leadership</span>
-					<h2 class="section-title">Administration Section</h2>
-					<p>School leadership that guides vision, discipline, academic planning, and daily operations.</p>
+					<h2 class="section-title">Meet Our Administration</h2>
+					<p>The dedicated leaders who guide our school every day.</p>
 				</div>
 				<div class="row g-4 justify-content-center">
-					<div class="col-12 col-md-6 col-lg-3">
-						<div class="admin-card text-center fade-left h-100">
+					<div class="col-6 col-md-4 col-lg-3">
+						<div class="admin-card text-center fade-left">
 							<div class="admin-photo-wrap">
-								<img src="assets/images/Principal.png" class="team-photo" alt="Principal portrait">
+								<img src="assets/images/Principal.png" class="team-photo" alt="Principal">
 							</div>
 							<h6 class="mt-3 mb-1">Mr. Calvin Y. Goffah</h6>
 							<span class="admin-role">Principal</span>
-							<p class="mt-3 mb-0 text-muted small">Leads the school with a commitment to Christ, Character, and Excellence.</p>
 						</div>
 					</div>
-					<div class="col-12 col-md-6 col-lg-3">
-						<div class="admin-card text-center fade-right h-100">
-							<div class="admin-photo-wrap"><img src="assets/images/SA.png" class="team-photo" alt="Education Director portrait"></div>
-							<h6 class="mt-3 mb-1">Mr. G. Alphonso Menyon</h6>
-							<span class="admin-role">Education Director</span>
-							<p class="mt-3 mb-0 text-muted small">Oversees teaching standards, supervision, and academic quality.</p>
+
+					<div class="col-6 col-md-4 col-lg-3">
+						<div class="admin-card text-center fade-right">
+							<div class="admin-photo-wrap">
+								<img src="assets/images/v_Principal.png" class="team-photo" alt="Principal">
+							</div>
+							<h6 class="mt-3 mb-1">Mr. Arthur Z Kpogbah </h6>
+							<span class="admin-role">Vice Principal for Administration</span>
 						</div>
 					</div>
-					<div class="col-12 col-md-6 col-lg-3">
-						<div class="admin-card text-center fade-left h-100">
-							<div class="admin-photo-wrap"><img src="assets/images/Dean.jpeg" class="team-photo" alt="Academic Dean portrait"></div>
-							<h6 class="mt-3 mb-1">Ms. Joevina C. Grant</h6>
-							<span class="admin-role">Academic Dean</span>
-							<p class="mt-3 mb-0 text-muted small">Supports lesson delivery, assessments, and instructional improvement.</p>
+
+					<div class="col-6 col-md-4 col-lg-3">
+						<div class="admin-card text-center fade-right">
+							<div class="admin-photo-wrap">
+								<img src="assets/images/VPI.png" class="team-photo" alt="Vice Principal">
+							</div>
+							<h6 class="mt-3 mb-1">Mr. Maxwell Strother</h6>
+							<span class="admin-role">Vice Principal for Instructions</span>
 						</div>
 					</div>
-					<div class="col-12 col-md-6 col-lg-3">
-						<div class="admin-card text-center fade-right h-100">
-							<div class="admin-photo-wrap"><img src="assets/images/logo.png" class="team-photo" alt="Vice Principal portrait"></div>
-							<h6 class="mt-3 mb-1">Mr. James M. Folley</h6>
-							<span class="admin-role">Vice Principal For Instructions</span>
-							<p class="mt-3 mb-0 text-muted small">Ensures classroom discipline and academic coordination.</p>
+
+					<div class="col-6 col-md-4 col-lg-3">
+						<div class="admin-card text-center fade-left">
+							<div class="admin-photo-wrap">
+								<img src="assets/images/BO.png" class="team-photo" alt="Academic Dean">
+							</div>
+							<h6 class="mt-3 mb-1">Mr. William N. Saydee </h6>
+							<span class="admin-role">Business Manager</span>
+						</div>
+					</div>
+
+					<div class="col-6 col-md-4 col-lg-3">
+						<div class="admin-card text-center fade-right">
+							<div class="admin-photo-wrap">
+								<img src="assets/images/Registrar.png" class="team-photo" alt="Bursar">
+							</div>
+							<h6 class="mt-3 mb-1">Ms. Linda Saah Brown </h6>
+							<span class="admin-role">Register</span>
+						</div>
+					</div>
+
+					<div class="col-6 col-md-4 col-lg-3">
+						<div class="admin-card text-center fade-left">
+							<div class="admin-photo-wrap">
+								<img src="assets/images/DOSA.png" class="team-photo" alt="Dean">
+							</div>
+							<h6 class="mt-3 mb-1">Sarina Blessing Eastman</h6>
+							<span class="admin-role">Dean of Admission and Student Affairs</span>
 						</div>
 					</div>
 				</div>
-		</div>
+			</div>
 		</section>
 
 		<section class="py-5 section-soft" id="teachers" data-animate>

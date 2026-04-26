@@ -34,31 +34,245 @@ $pageTitle = 'Education Department';
 
 		<section class="py-5 about-feature" data-animate>
 			<div class="container">
-				<div class="section-heading">
-					<span class="section-kicker">Department Overview</span>
-					<h2>What We Do</h2>
-					<p>
-						The Education Department oversees curriculum implementation, teacher development,
-						assessment quality, and continuous improvement to ensure students achieve excellence.
-					</p>
+				<div class="section-heading text-center">
+					<span class="section-kicker">Core Mandate</span>
+					<h2 class="section-title">Brief Functions of the Education Department</h2>
+					<p>The Education Department provides oversight, quality control, and Christ-centered direction for all school operations under World Wide Missions of Liberia.</p>
 				</div>
 
-				<div class="value-cards values-enhanced">
-					<article class="card value-card-item fade-left">
-						<div class="value-icon"><i class="bi bi-journal-check"></i></div>
-						<h3>Curriculum Leadership</h3>
-						<p>We align instruction with national standards and school values across all grade levels.</p>
-					</article>
-					<article class="card value-card-item fade-right">
-						<div class="value-icon"><i class="bi bi-person-workspace"></i></div>
-						<h3>Teacher Support</h3>
-						<p>We equip teachers with planning tools, mentorship, and regular professional development.</p>
-					</article>
-					<article class="card value-card-item fade-left">
-						<div class="value-icon"><i class="bi bi-graph-up-arrow"></i></div>
-						<h3>Student Performance</h3>
-						<p>We monitor learning outcomes and use data-driven interventions to improve results.</p>
-					</article>
+				<div class="row g-4 justify-content-center">
+					<div class="col-sm-6 col-lg-3">
+						<article class="card value-card-item value-card-modern text-start h-100 fade-left">
+							<div class="value-icon"><i class="bi bi-building-gear"></i></div>
+							<h3 class="h5">1. School Administration &amp; Oversight</h3>
+							<p class="mb-0">Runs day-to-day school operations and sets the academic calendar, policies, and institutional standards.</p>
+						</article>
+					</div>
+					<div class="col-sm-6 col-lg-3">
+						<article class="card value-card-item value-card-modern text-start h-100 fade-right">
+							<div class="value-icon"><i class="bi bi-journal-check"></i></div>
+							<h3 class="h5">2. Curriculum Development</h3>
+							<p class="mb-0">Ensures teaching follows Ministry of Education requirements while integrating Christian values, approved texts, lesson plans, and character education.</p>
+						</article>
+					</div>
+					<div class="col-sm-6 col-lg-3">
+						<article class="card value-card-item value-card-modern text-start h-100 fade-left">
+							<div class="value-icon"><i class="bi bi-person-workspace"></i></div>
+							<h3 class="h5">3. Teacher Recruitment &amp; Training</h3>
+							<p class="mb-0">Hires qualified teachers, conducts in-service training, monitors staff performance, and organizes workshops on pedagogy and biblical integration.</p>
+						</article>
+					</div>
+					<div class="col-sm-6 col-lg-3">
+						<article class="card value-card-item value-card-modern text-start h-100 fade-right">
+							<div class="value-icon"><i class="bi bi-people"></i></div>
+							<h3 class="h5">4. Student Affairs &amp; Discipline</h3>
+							<p class="mb-0">Manages admissions, records, welfare, counseling, and discipline while reinforcing Christ, Character, and Excellence.</p>
+						</article>
+					</div>
+					<div class="col-sm-6 col-lg-3">
+						<article class="card value-card-item value-card-modern text-start h-100 fade-left">
+							<div class="value-icon"><i class="bi bi-patch-check"></i></div>
+							<h3 class="h5">5. Compliance &amp; Accreditation</h3>
+							<p class="mb-0">Liaises with the Ministry of Education for licensing, WAEC registration, and accreditation compliance in staffing, facilities, and curriculum.</p>
+						</article>
+					</div>
+					<div class="col-sm-6 col-lg-3">
+						<article class="card value-card-item value-card-modern text-start h-100 fade-right">
+							<div class="value-icon"><i class="bi bi-cash-stack"></i></div>
+							<h3 class="h5">6. Finance &amp; Resource Management</h3>
+							<p class="mb-0">Prepares budgets, sets tuition and fees, and oversees resources for salaries, instructional materials, and infrastructure projects.</p>
+						</article>
+					</div>
+					<div class="col-sm-6 col-lg-3">
+						<article class="card value-card-item value-card-modern text-start h-100 fade-left">
+							<div class="value-icon"><i class="bi bi-cross"></i></div>
+							<h3 class="h5">7. Ministry Integration</h3>
+							<p class="mb-0">Coordinates chapel, devotions, Christian clubs, and outreach so education advances evangelism and discipleship.</p>
+						</article>
+					</div>
+					<div class="col-sm-6 col-lg-3">
+						<article class="card value-card-item value-card-modern text-start h-100 fade-right">
+							<div class="value-icon"><i class="bi bi-diagram-3"></i></div>
+							<h3 class="h5">8. Community &amp; Parent Relations</h3>
+							<p class="mb-0">Leads PTA engagement, provides parent reporting, and represents the schools to communities and government partners.</p>
+						</article>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="py-5 section-soft" data-animate>
+			<div class="container">
+				<div class="section-heading">
+					<span class="section-kicker">Historical Background</span>
+					<h2 class="section-title">How The Department Was Established</h2>
+				</div>
+
+				<div class="proprietor-wrap">
+					<p class="proprietor-text mb-3">In the early 1960s, when World Wide Missions of Liberia was established, there was no separate Education Department. The four mission pillars, the Church, Education, Agriculture, and Medical, were all under direct church supervision.</p>
+					<p class="proprietor-text mb-3">During that period, Rev. Dr. Abba G. Karnga coordinated those departments and provided broad mission leadership.</p>
+					<p class="proprietor-text mb-0">In the late 1970s, after returning from studies, Mr. Roujee Morris helped formalize the Education Department and became its first Education Director.</p>
+				</div>
+			</div>
+		</section>
+
+		<section class="py-5" data-animate>
+			<div class="container">
+				<div class="section-heading text-center">
+					<span class="section-kicker">Leadership Timeline</span>
+					<h2 class="section-title">Department Transitions Through The Years</h2>
+					<p>Key leadership transitions that shaped education oversight across the mission system.</p>
+				</div>
+
+				<div class="accordion" id="educationTimelineAccordion">
+					<div class="card admin-card mb-3 border-0">
+						<h3 class="mb-0" id="timelineHeading1980s">
+							<button class="btn w-100 text-start d-flex align-items-center justify-content-between" type="button" data-bs-toggle="collapse" data-bs-target="#timeline1980s" aria-expanded="true" aria-controls="timeline1980s">
+								<span><i class="bi bi-calendar-event me-2"></i><strong>Late 1980s</strong></span>
+								<i class="bi bi-chevron-down"></i>
+							</button>
+						</h3>
+						<div id="timeline1980s" class="collapse show" aria-labelledby="timelineHeading1980s" data-bs-parent="#educationTimelineAccordion">
+							<div class="card-body pt-0">
+								<p class="mb-0">When Mr. Roujee Morris became Director of World Wide Missions of Liberia, the civil war disrupted systems and operations, and he carried multiple responsibilities during a difficult season.</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="card admin-card mb-3 border-0">
+						<h3 class="mb-0" id="timelineHeading1990s">
+							<button class="btn w-100 text-start d-flex align-items-center justify-content-between collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#timeline1990s" aria-expanded="false" aria-controls="timeline1990s">
+								<span><i class="bi bi-people-fill me-2"></i><strong>Late 1990s</strong></span>
+								<i class="bi bi-chevron-down"></i>
+							</button>
+						</h3>
+						<div id="timeline1990s" class="collapse" aria-labelledby="timelineHeading1990s" data-bs-parent="#educationTimelineAccordion">
+							<div class="card-body pt-0">
+								<p class="mb-0">After Mr. Morris left mission leadership, the Elders established a seven-man council headed by Daniel Paygar, and Elder Garmondeh Karnga was appointed as Education Director.</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="card admin-card mb-3 border-0">
+						<h3 class="mb-0" id="timelineHeading2021">
+							<button class="btn w-100 text-start d-flex align-items-center justify-content-between collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#timeline2021" aria-expanded="false" aria-controls="timeline2021">
+								<span><i class="bi bi-person-check-fill me-2"></i><strong>2021</strong></span>
+								<i class="bi bi-chevron-down"></i>
+							</button>
+						</h3>
+						<div id="timeline2021" class="collapse" aria-labelledby="timelineHeading2021" data-bs-parent="#educationTimelineAccordion">
+							<div class="card-body pt-0">
+								<p class="mb-0">When Mr. Reuben Tedoe Faimahn took over as Director of Missions, he recommended Evangelist Constant C. Pee to serve as Education Director.</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="card admin-card mb-3 border-0">
+						<h3 class="mb-0" id="timelineHeading2024">
+							<button class="btn w-100 text-start d-flex align-items-center justify-content-between collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#timeline2024" aria-expanded="false" aria-controls="timeline2024">
+								<span><i class="bi bi-arrow-repeat me-2"></i><strong>2024</strong></span>
+								<i class="bi bi-chevron-down"></i>
+							</button>
+						</h3>
+						<div id="timeline2024" class="collapse" aria-labelledby="timelineHeading2024" data-bs-parent="#educationTimelineAccordion">
+							<div class="card-body pt-0">
+								<p class="mb-0">When Elder Garmondeh Karnga became Director of Missions, he continued coordinating Education and at Sinjay Conference recommended Ben Karnga to serve as Education Director.</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="card admin-card mb-0 border-0">
+						<h3 class="mb-0" id="timelineHeading2025">
+							<button class="btn w-100 text-start d-flex align-items-center justify-content-between collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#timeline2025" aria-expanded="false" aria-controls="timeline2025">
+								<span><i class="bi bi-star-fill me-2"></i><strong>2025</strong></span>
+								<i class="bi bi-chevron-down"></i>
+							</button>
+						</h3>
+						<div id="timeline2025" class="collapse" aria-labelledby="timelineHeading2025" data-bs-parent="#educationTimelineAccordion">
+							<div class="card-body pt-0">
+								<p class="mb-0">When Madam Mary Karnga Dahn took over as Director of Missions, she recommended Mr. G. Alphonso Menyon to serve as Education Director.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="bg-white w-100 m-0 p-0" data-animate>
+			<div class="container-fluid w-100 m-0 p-0">
+				<div class="py-5 px-0">
+				<div class="section-heading text-center">
+					<span class="section-kicker">Leadership Gallery</span>
+					<h2 class="section-title">Past and Present Education Directors</h2>
+					<p>Photos of department leaders across different periods. You can update any photo and caption as needed.</p>
+				</div>
+
+				<div class="section-heading text-center mb-3">
+					<span class="section-kicker">Past</span>
+					<h3 class="h4 mb-0">Past Education Directors</h3>
+				</div>
+				<div class="row g-4 justify-content-center mb-5 mx-0">
+					<div class="col-sm-6 col-lg-3">
+						<div class="admin-card text-center h-100 fade-left">
+							<div class="admin-photo-wrap">
+								<img src="assets/images/logo.png" class="team-photo" alt="Past Education Director">
+							</div>
+							<span class="badge text-bg-light border mb-2">Late 1970s</span>
+							<h6 class="mt-2 mb-1">Mr. Roujee Morris</h6>
+							<span class="admin-role">First Education Director</span>
+						</div>
+					</div>
+
+					<div class="col-sm-6 col-lg-3">
+						<div class="admin-card text-center h-100 fade-right">
+							<div class="admin-photo-wrap">
+								<img src="assets/images/logo.png" class="team-photo" alt="Past Education Director">
+							</div>
+							<span class="badge text-bg-light border mb-2">Late 1990s</span>
+							<h6 class="mt-2 mb-1">Elder Garmondeh Karnga</h6>
+							<span class="admin-role">Education Director</span>
+						</div>
+					</div>
+
+					<div class="col-sm-6 col-lg-3">
+						<div class="admin-card text-center h-100 fade-left">
+							<div class="admin-photo-wrap">
+								<img src="assets/images/logo.png" class="team-photo" alt="Past Education Director">
+							</div>
+							<span class="badge text-bg-light border mb-2">2021</span>
+							<h6 class="mt-2 mb-1">Evangelist Constant C. Pee</h6>
+							<span class="admin-role">Education Director</span>
+						</div>
+					</div>
+
+					<div class="col-sm-6 col-lg-3">
+						<div class="admin-card text-center h-100 fade-right">
+							<div class="admin-photo-wrap">
+								<img src="assets/images/logo.png" class="team-photo" alt="Past Education Director">
+							</div>
+							<span class="badge text-bg-light border mb-2">2024</span>
+							<h6 class="mt-2 mb-1">Ben Karnga</h6>
+							<span class="admin-role">Recommended at Sinjay Conference</span>
+						</div>
+					</div>
+				</div>
+
+				<div class="section-heading text-center mb-3">
+					<span class="section-kicker">Present</span>
+					<h3 class="h4 mb-0">Present Education Director</h3>
+				</div>
+				<div class="row g-4 justify-content-center mx-0">
+					<div class="col-sm-6 col-lg-3">
+						<div class="admin-card text-center h-100 fade-left">
+							<div class="admin-photo-wrap">
+								<img src="assets/images/ED.png" class="team-photo" alt="Present Education Director">
+							</div>
+							<span class="badge text-bg-success mb-2">2025 - Present</span>
+							<h6 class="mt-2 mb-1">Mr. G. Alphonso Menyon</h6>
+							<span class="admin-role">Education Director</span>
+						</div>
+					</div>
+				</div>
 				</div>
 			</div>
 		</section>
@@ -72,7 +286,7 @@ $pageTitle = 'Education Department';
 							<i class="bi bi-telephone-fill" aria-hidden="true"></i>
 							<span>Speak With The Education Team</span>
 						</h4>
-						<p class="mb-0">For curriculum, academic support, and departmental inquiries, contact our office.</p>
+						<p class="mb-0">For curriculum, admissions, standards, and academic support inquiries, contact the Education Department office.</p>
 					</div>
 					<a href="contact.php" class="btn btn-school btn-lg verification-btn">Contact Education Department</a>
 				</div>
