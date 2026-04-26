@@ -1,5 +1,5 @@
 <nav class="navbar navbar-expand-lg navbar-dark sticky-top wbi-navbar">
-  <div class="container">
+  <div class="container-fluid">
     <a class="navbar-brand brand-identity" href="index.php">
       <span class="logo-badge" aria-hidden="true">
         <img src="assets/images/WBI-logo.png" width="50" alt="WBI Logo" class="site-logo">

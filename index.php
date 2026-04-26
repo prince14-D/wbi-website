@@ -25,10 +25,10 @@ $yearsInOperation = date('Y') - $foundingYear;
 	<link rel="apple-touch-icon" href="assets/images/logo.png">
 	<link rel="stylesheet" href="assets/css/style.css">
 </head>
-<body>
+<body class="home-page">
 	<?php include __DIR__ . '/includes/header.php'; ?>
 
-	<main>
+	<main class="w-100 m-0">
 		<section class="hero hero-slider">
 			<div id="homeHeroCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
 				<div class="carousel-indicators">
@@ -165,9 +165,9 @@ $yearsInOperation = date('Y') - $foundingYear;
 			</div>
 		</section>
 
-	        	<section class="py-4 proprietor-section" data-animate>
-			<div class="container">
-				<div class="proprietor-wrap">
+	        	<section class="py-4 proprietor-section w-100 m-0" data-animate>
+			<div class="container-fluid w-100 px-3 px-md-4">
+				<div class="proprietor-wrap m-0">
 					<div class="row g-3 align-items-center">
 						<div class="col-lg-5 text-center text-lg-start fade-left">
 							<div class="proprietor-photo-frame mx-auto mx-lg-0">
@@ -323,7 +323,7 @@ $yearsInOperation = date('Y') - $foundingYear;
 				<p class="text-center text-muted mb-5">The dedicated leaders who guide our school every day.</p>
 				<div class="row g-4 justify-content-center">
 
-					<div class="col-6 col-md-4 col-lg-3">
+					<div class="col-12 col-md-4 col-lg-3">
 						<div class="admin-card text-center fade-left">
 							<div class="admin-photo-wrap">
 								<img src="assets/images/v_Principal.png" class="team-photo" alt="Principal">
@@ -333,7 +333,7 @@ $yearsInOperation = date('Y') - $foundingYear;
 						</div>
 					</div>
 
-					<div class="col-6 col-md-4 col-lg-3">
+					<div class="col-12 col-md-4 col-lg-3">
 						<div class="admin-card text-center fade-right">
 							<div class="admin-photo-wrap">
 								<img src="assets/images/VPI.png" class="team-photo" alt="Vice Principal">
@@ -343,7 +343,7 @@ $yearsInOperation = date('Y') - $foundingYear;
 						</div>
 					</div>
 
-					<div class="col-6 col-md-4 col-lg-3">
+					<div class="col-12 col-md-4 col-lg-3">
 						<div class="admin-card text-center fade-left">
 							<div class="admin-photo-wrap">
 								<img src="assets/images/BO.png" class="team-photo" alt="Academic Dean">
@@ -353,7 +353,7 @@ $yearsInOperation = date('Y') - $foundingYear;
 						</div>
 					</div>
 
-					<div class="col-6 col-md-4 col-lg-3">
+					<div class="col-12 col-md-4 col-lg-3">
 						<div class="admin-card text-center fade-right">
 							<div class="admin-photo-wrap">
 								<img src="assets/images/Registrar.png" class="team-photo" alt="Bursar">

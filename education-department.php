@@ -18,10 +18,10 @@ $pageTitle = 'Education Department';
 	<?php include __DIR__ . '/includes/header.php'; ?>
 
 	<main>
-		<section class="hero hero-slider">
+		<section class="hero hero-slider w-100 m-0">
 			<div class="hero-slide">
 				<img src="assets/images/banner2.png" alt="Education Department banner" class="hero-slide-image">
-				<div class="hero-content container">
+				<div class="hero-content container-fluid w-100 px-3 px-md-4">
 					<h1>Education Department</h1>
 					<p>Strengthening curriculum quality, teaching standards, and student outcomes across every level.</p>
 					<div class="hero-buttons">
@@ -32,8 +32,8 @@ $pageTitle = 'Education Department';
 			</div>
 		</section>
 
-		<section class="py-5 about-feature" data-animate>
-			<div class="container">
+		<section class="py-5 about-feature w-100 m-0" data-animate>
+			<div class="container-fluid w-100 px-3 px-md-4">
 				<div class="section-heading text-center">
 					<span class="section-kicker">Core Mandate</span>
 					<h2 class="section-title">Brief Functions of the Education Department</h2>
@@ -101,8 +101,8 @@ $pageTitle = 'Education Department';
 			</div>
 		</section>
 
-		<section class="py-5 section-soft" data-animate>
-			<div class="container">
+		<section class="py-5 section-soft w-100 m-0" data-animate>
+			<div class="container-fluid w-100 px-3 px-md-4">
 				<div class="section-heading">
 					<span class="section-kicker">Historical Background</span>
 					<h2 class="section-title">How The Department Was Established</h2>
@@ -116,8 +116,8 @@ $pageTitle = 'Education Department';
 			</div>
 		</section>
 
-		<section class="py-5" data-animate>
-			<div class="container">
+		<section class="py-5 w-100 m-0" data-animate>
+			<div class="container-fluid w-100 px-3 px-md-4">
 				<div class="section-heading text-center">
 					<span class="section-kicker">Leadership Timeline</span>
 					<h2 class="section-title">Department Transitions Through The Years</h2>
@@ -199,8 +199,8 @@ $pageTitle = 'Education Department';
 		</section>
 
 		<section class="bg-white w-100 m-0 p-0" data-animate>
-			<div class="container-fluid w-100 m-0 p-0">
-				<div class="py-5 px-0">
+			<div class="container-fluid w-100 m-0 px-3 px-md-4">
+				<div class="py-5">
 				<div class="section-heading text-center">
 					<span class="section-kicker">Leadership Gallery</span>
 					<h2 class="section-title">Past and Present Education Directors</h2>
@@ -277,8 +277,8 @@ $pageTitle = 'Education Department';
 			</div>
 		</section>
 
-		<section class="py-4 verification-section" data-animate>
-			<div class="container">
+		<section class="py-4 verification-section w-100 m-0" data-animate>
+			<div class="container-fluid w-100 px-3 px-md-4">
 				<div class="verification-cta d-flex flex-column flex-lg-row align-items-center justify-content-between gap-3 text-start">
 					<div class="verification-copy">
 						<span class="verification-kicker">Get In Touch</span>

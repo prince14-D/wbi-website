@@ -33,6 +33,38 @@ h3 {
   margin: 0 auto;
 }
 
+/* Home page full-width responsive layout */
+body.home-page {
+  margin: 0;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+body.home-page main,
+body.home-page section,
+body.home-page .site-header,
+body.home-page .site-footer {
+  width: 100%;
+  margin: 0;
+}
+
+body.home-page .container,
+body.home-page .container-fluid {
+  width: 100%;
+  max-width: 100%;
+  margin: 0;
+  padding-left: clamp(12px, 2.2vw, 36px);
+  padding-right: clamp(12px, 2.2vw, 36px);
+}
+
+@media (max-width: 576px) {
+  body.home-page .container,
+  body.home-page .container-fluid {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+}
+
 .site-header {
   position: sticky;
   top: 0;
@@ -90,6 +122,12 @@ h3 {
   box-shadow: 0 10px 20px rgba(96, 2, 17, 0.3);
 }
 
+.wbi-navbar .container-fluid {
+  max-width: 100%;
+  padding-left: clamp(10px, 2vw, 32px);
+  padding-right: clamp(10px, 2vw, 32px);
+}
+
 .brand-identity {
   display: flex;
   align-items: center;
@@ -131,6 +169,77 @@ h3 {
   background: #d48580;
   border-color: #d48580;
   color: var(--accent-ink);
+}
+
+.wbi-navbar .navbar-toggler {
+  border-color: rgba(255, 255, 255, 0.35);
+}
+
+.wbi-navbar .navbar-toggler:focus {
+  box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0.2);
+}
+
+@media (max-width: 991.98px) {
+  .wbi-navbar .navbar-brand {
+    max-width: calc(100% - 64px);
+    margin-right: 0;
+  }
+
+  .school-name {
+    font-size: 1rem;
+    line-height: 1.2;
+  }
+
+  .tagline {
+    font-size: 0.74rem;
+    line-height: 1.2;
+  }
+
+  .wbi-navbar .navbar-collapse {
+    margin-top: 0.75rem;
+    padding: 0.75rem;
+    border-radius: 12px;
+    background: rgba(255, 255, 255, 0.08);
+  }
+
+  .wbi-navbar .navbar-nav {
+    gap: 0.2rem;
+    align-items: stretch !important;
+  }
+
+  .wbi-navbar .nav-link {
+    display: block;
+    width: 100%;
+    padding: 0.55rem 0.75rem;
+    border-radius: 8px;
+  }
+
+  .wbi-navbar .dropdown-menu {
+    position: static !important;
+    float: none;
+    transform: none !important;
+    width: 100%;
+    margin-top: 0.35rem;
+  }
+
+  .wbi-navbar .nav-item.ms-lg-3 {
+    margin-left: 0 !important;
+  }
+
+  .wbi-navbar .btn-warning {
+    width: 100%;
+  }
+}
+
+@media (max-width: 420px) {
+  .site-logo {
+    width: 44px;
+    height: 44px;
+  }
+
+  .tagline {
+    display: none;
+  }
 }
 
 .portal-btn {
