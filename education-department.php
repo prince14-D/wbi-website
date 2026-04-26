@@ -198,6 +198,28 @@ $pageTitle = 'Education Department';
 			</div>
 		</section>
 
+		<section class="py-5 proprietor-section w-100 m-0" data-animate>
+			<div class="container-fluid w-100 px-3 px-md-4">
+				<div class="proprietor-wrap">
+					<div class="row g-4 align-items-center">
+						<div class="col-lg-7 text-start fade-left">
+							<span class="proprietor-kicker">Foundational Leadership</span>
+							<h2 class="section-title mb-2">Rev. Dr. Abba G. Karnga</h2>
+							<span class="badge text-bg-light border mb-2">Early 1960s</span>
+							<p class="proprietor-text mb-1"><strong>Presiding Elder &amp; Founder</strong></p>
+							<p class="proprietor-text mb-0">In the formative years of World Wide Missions of Liberia, Rev. Dr. Abba G. Karnga provided oversight and spiritual direction across the mission pillars, including Church, Education, Agriculture, and Medical. His foundational leadership helped shape the mission's structure and vision, creating the groundwork for the Education Department that serves today.</p>
+							<p class="proprietor-text mt-2 mb-0">As mission schools grew and enrollment expanded, this early governance model later evolved into a dedicated Education Department to strengthen academic supervision, teacher support, and long-term institutional planning.</p>
+						</div>
+						<div class="col-lg-5 text-center fade-right">
+							<div class="proprietor-photo-frame mx-auto">
+								<img src="assets/images/Founder.png" class="img-fluid proprietor-photo" alt="Rev. Dr. Abba G. Karnga portrait">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
 		<section class="bg-white w-100 m-0 p-0" data-animate>
 			<div class="container-fluid w-100 m-0 px-3 px-md-4">
 				<div class="py-5">
@@ -226,7 +248,7 @@ $pageTitle = 'Education Department';
 					<div class="col-sm-6 col-lg-3">
 						<div class="admin-card text-center h-100 fade-right">
 							<div class="admin-photo-wrap">
-								<img src="assets/images/logo.png" class="team-photo" alt="Past Education Director">
+								<img src="assets/images/Elder.png" class="team-photo" alt="Past Education Director">
 							</div>
 							<span class="badge text-bg-light border mb-2">Late 1990s</span>
 							<h6 class="mt-2 mb-1">Elder Garmondeh Karnga</h6>
@@ -237,10 +259,10 @@ $pageTitle = 'Education Department';
 					<div class="col-sm-6 col-lg-3">
 						<div class="admin-card text-center h-100 fade-left">
 							<div class="admin-photo-wrap">
-								<img src="assets/images/logo.png" class="team-photo" alt="Past Education Director">
+								<img src="assets/images/Constant.png" class="team-photo" alt="Past Education Director">
 							</div>
-							<span class="badge text-bg-light border mb-2">2021</span>
-							<h6 class="mt-2 mb-1">Evangelist Constant C. Pee</h6>
+							<span class="badge text-bg-light border mb-2">2022-2025</span>
+							<h6 class="mt-2 mb-1">Mr. Constant C. Pee</h6>
 							<span class="admin-role">Education Director</span>
 						</div>
 					</div>
@@ -248,11 +270,11 @@ $pageTitle = 'Education Department';
 					<div class="col-sm-6 col-lg-3">
 						<div class="admin-card text-center h-100 fade-right">
 							<div class="admin-photo-wrap">
-								<img src="assets/images/logo.png" class="team-photo" alt="Past Education Director">
+								<img src="assets/images/karnga.png" class="team-photo" alt="Past Education Director">
 							</div>
-							<span class="badge text-bg-light border mb-2">2024</span>
-							<h6 class="mt-2 mb-1">Ben Karnga</h6>
-							<span class="admin-role">Recommended at Sinjay Conference</span>
+							<span class="badge text-bg-light border mb-2">2004-2021</span>
+							<h6 class="mt-2 mb-1">Mr. Benjiman Karnga </h6>
+							<span class="admin-role">Education Director/span>
 						</div>
 					</div>
 				</div>
