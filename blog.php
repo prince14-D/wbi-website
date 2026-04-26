@@ -22,7 +22,7 @@ $otherPosts = array_slice($blogPosts, 1);
   <main>
     <section class="hero p-0 m-0" data-animate>
       <div class="hero-slide">
-        <img src="assets/images/banner2.png" alt="WBI blog banner" class="hero-slide-image">
+        <img src="assets/images/banner.png" alt="WBI blog banner" class="hero-slide-image">
         <div class="hero-content container">
           <h1>WBI School Blog</h1>
           <p>Stories, reflections, and practical insights from our school community.</p>

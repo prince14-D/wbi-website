@@ -55,7 +55,7 @@ $yearsInOperation = date('Y') - $foundingYear;
 
 					<div class="carousel-item">
 						<div class="hero-slide">
-							<img src="assets/images/WBI-logo.png" alt="WBI Logo" class="hero-slide-image">
+							<img src="assets/images/banner1.png" alt="WBI Logo" class="hero-slide-image">
 							<div class="hero-content container">
 								<h1>Excellence in Academics and Character</h1>
 								<p>Our students are equipped for WAEC success, responsible leadership, and lifelong service.</p>
@@ -69,7 +69,7 @@ $yearsInOperation = date('Y') - $foundingYear;
 
 					<div class="carousel-item">
 						<div class="hero-slide">
-							<img src="assets/images/banner2.png" alt="WBI Logo" class="hero-slide-image">
+							<img src="assets/images/banner3.png" alt="WBI Logo" class="hero-slide-image">
 							<div class="hero-content container">
 								<h1>Admissions Are Open</h1>
 								<p>Join the WBI family and give your child a strong foundation built on faith and discipline.</p>

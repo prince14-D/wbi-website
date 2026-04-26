@@ -9,9 +9,9 @@ $pageTitle = 'Education Department';
 	<title><?php echo $pageTitle; ?> - William Bean Institute</title>
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
-	<link rel="icon" type="image/png" sizes="32x32" href="assets/images/logo.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="assets/images/logo.png">
-	<link rel="shortcut icon" href="assets/images/logo.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="assets/images/WBI-logo.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="assets/images/WBI-logo.png">
+	<link rel="shortcut icon" href="assets/images/WBI-logo.png">
 	<link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body class="education-page">
@@ -20,7 +20,7 @@ $pageTitle = 'Education Department';
 	<main class="w-100 m-0">
 		<section class="hero hero-slider w-100 m-0">
 			<div class="hero-slide">
-				<img src="assets/images/banner2.png" alt="Education Department banner" class="hero-slide-image">
+				<img src="assets/images/banner1.png" alt="Education Department banner" class="hero-slide-image">
 				<div class="hero-content container-fluid w-100 px-3 px-md-4">
 					<h1>Education Department</h1>
 					<p>Strengthening curriculum quality, teaching standards, and student outcomes across every level.</p>

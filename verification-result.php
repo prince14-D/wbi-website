@@ -172,7 +172,7 @@ if ($record) {
             <div class="transcript-shell">
                 <div class="transcript-head">
                     <div class="transcript-brand">
-                        <img src="assets/images/logo.png" alt="WBI logo">
+                        <img src="assets/images/WBI-logo.png" alt="WBI logo">
                         <div>
                             <h1 class="h5 mb-1">World Wide Missions School (WBI)</h1>
                             <p class="mb-0 small">Duport Road, Monrovia, Liberia | Official Transcript Verification</p>
