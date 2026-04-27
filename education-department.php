@@ -297,6 +297,16 @@ $pageTitle = 'Education Department';
 					<div class="col-sm-6 col-lg-3">
 						<div class="admin-card text-center h-100 fade-right">
 							<div class="admin-photo-wrap">
+								<img src="assets/images/Mary.png" class="team-photo" alt="Director of Missions">
+							</div>
+							<span class="badge text-bg-success mb-2">2025- Present</span>
+							<h6 class="mt-2 mb-1">Mrs. Mary Karnga Dahn</h6>
+							<span class="admin-role">Director of Missions</span>
+						</div>
+					</div>
+					<div class="col-sm-6 col-lg-3">
+						<div class="admin-card text-center h-100 fade-right">
+							<div class="admin-photo-wrap">
 								<img src="assets/images/Holder.png" class="team-photo" alt="Human Resources Manager">
 							</div>
 							<span class="badge text-bg-success mb-2">2025 - Present</span>
@@ -315,11 +325,41 @@ $pageTitle = 'Education Department';
 						</div>
 					</div>
 					<div class="col-sm-6 col-lg-3">
+						<div class="admin-card text-center h-100 fade-left">
+							<div class="admin-photo-wrap">
+								<img src="assets/images/Faimahn.png" class="team-photo" alt="Education Officer">
+							</div>
+							<span class="badge text-bg-success mb-2">2005-Present</span>
+							<h6 class="mt-2 mb-1">Mr. Stanley Duke Faimahn</h6>
+							<span class="admin-role">Education Officer</span>
+						</div>
+					</div>
+					<div class="col-sm-6 col-lg-3">
+						<div class="admin-card text-center h-100 fade-right">
+							<div class="admin-photo-wrap">
+								<img src="assets/images/Paye.png" class="team-photo" alt="Education Officer">
+							</div>
+							<span class="badge text-bg-success mb-2">2025-Present</span>
+							<h6 class="mt-2 mb-1">Mr. David F. Paye</h6>
+							<span class="admin-role">Education Officer</span>
+						</div>
+					</div>
+					<div class="col-sm-6 col-lg-3">
+						<div class="admin-card text-center h-100 fade-left">
+							<div class="admin-photo-wrap">
+								<img src="assets/images/Collins.png" class="team-photo" alt="Education Officer">
+							</div>
+							<span class="badge text-bg-success mb-2">2005- Present</span>
+							<h6 class="mt-2 mb-1">Mr. John G. Z. Collins</h6>
+							<span class="admin-role">Education Officer</span>
+						</div>
+					</div>
+					<div class="col-sm-6 col-lg-3">
 						<div class="admin-card text-center h-100 fade-right">
 							<div class="admin-photo-wrap">
 								<img src="assets/images/Jonathan.png" class="team-photo" alt="IT Controller">
 							</div>
-							<span class="badge text-bg-success mb-2">2025 - Present</span>
+							<span class="badge text-bg-success mb-2">2025-Present</span>
 							<h6 class="mt-2 mb-1">Mr. Jonathan A. Karnga</h6>
 							<span class="admin-role">IT Controller</span>
 						</div>

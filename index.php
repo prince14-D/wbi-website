@@ -69,7 +69,7 @@ $yearsInOperation = date('Y') - $foundingYear;
 
 					<div class="carousel-item">
 						<div class="hero-slide">
-							<img src="assets/images/banner3.png" alt="WBI Logo" class="hero-slide-image">
+							<img src="assets/images/Tigars-Kingdom-logo.png" alt="WBI Logo" class="hero-slide-image">
 							<div class="hero-content container">
 								<h1>Admissions Are Open</h1>
 								<p>Join the WBI family and give your child a strong foundation built on faith and discipline.</p>
@@ -257,7 +257,7 @@ $yearsInOperation = date('Y') - $foundingYear;
 							<div class="col-lg-6 fade-left">
 						<div class="video-panel">
 									<div class="video-frame shadow-sm">
-								<iframe src="https://www.youtube.com/embed/SNQtms7IoTE"
+								<iframe src="https://www.youtube.com/embed/x3ZCIPg1qP4?si=8_cSC9DqDOZUBm33"
 									title="William Bean Institute"
 									allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
 									allowfullscreen></iframe>
