@@ -220,6 +220,27 @@ $pageTitle = 'Education Department';
 			</div>
 		</section>
 
+		<section class="py-5 director-section w-100 m-0" data-animate>
+			<div class="container-fluid w-100 px-3 px-md-4">
+				<div class="proprietor-wrap">
+					<div class="row g-4 align-items-center">
+						<div class="col-lg-5 text-center fade-left">
+							<div class="director-photo-frame mx-auto">
+								<img src="assets/images/Mary.png" class="img-fluid proprietor-photo" alt="Mrs. Mary Karnga Dahn portrait">
+							</div>
+						</div>
+						<div class="col-lg-7 text-start fade-right">
+							<span class="proprietor-kicker">Director of Missions</span>
+							<h2 class="section-title mb-2">Mrs. Mary Karnga Dahn</h2>
+							<span class="badge text-bg-success border mb-2">2025 - Present</span>
+							<p class="proprietor-text mb-1"><strong>Director of Missions</strong></p>
+							<p class="proprietor-text mb-0">Mrs. Mary Karnga Dahn provides leadership and oversight for the mission's education, outreach, and administrative priorities. She champions program development, community engagement, and strategic coordination across the mission system while supporting the Education Department's goals.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
 		<section class="bg-white w-100 m-0 p-0" data-animate>
 			<div class="container-fluid w-100 m-0 px-3 px-md-4">
 				<div class="py-5">
