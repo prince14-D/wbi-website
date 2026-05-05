@@ -20,10 +20,10 @@ $pageTitle = 'Education Department';
 	<main class="w-100 m-0">
 		<section class="hero hero-slider w-100 m-0">
 			<div class="hero-slide">
-				<img src="assets/images/banner1.png" alt="Education Department banner" class="hero-slide-image">
+				<img src="assets/images/Lion.png" alt="Education Department banner" class="hero-slide-image">
 				<div class="hero-content container-fluid w-100 px-3 px-md-4">
 					<h1>Education Department</h1>
-					<p>Strengthening curriculum quality, teaching standards, and student outcomes across every level.</p>
+					<p>World Wide Missions School System</p>
 					<div class="hero-buttons">
 						<a href="academics.php" class="btn primary">View Academics</a>
 						<a href="contact.php" class="btn secondary">Contact Department</a>
@@ -315,16 +315,7 @@ $pageTitle = 'Education Department';
 							<span class="admin-role">Education Director</span>
 						</div>
 					</div>
-					<div class="col-sm-6 col-lg-3">
-						<div class="admin-card text-center h-100 fade-right">
-							<div class="admin-photo-wrap">
-								<img src="assets/images/Mary.png" class="team-photo" alt="Director of Missions">
-							</div>
-							<span class="badge text-bg-success mb-2">2025- Present</span>
-							<h6 class="mt-2 mb-1">Mrs. Mary Karnga Dahn</h6>
-							<span class="admin-role">Director of Missions</span>
-						</div>
-					</div>
+					
 					<div class="col-sm-6 col-lg-3">
 						<div class="admin-card text-center h-100 fade-right">
 							<div class="admin-photo-wrap">

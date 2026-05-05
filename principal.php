@@ -50,14 +50,13 @@ $pageTitle = 'Principal';
 						<div class="col-lg-8 text-start fade-right">
 							<span class="proprietor-kicker">Principal's Message</span>
 							<h2 class="section-title mb-3">Mr. Calvin Y. Goffah</h2>
-							<p class="proprietor-text"><strong>Warm greetings from the family of World Wide Missions School, Duport Road.</strong></p>
-							<p class="proprietor-text">At WBI, we believe every child is a gift from God with a purpose to fulfill. Our duty is simple: train them well for life and for eternity. Each day, our teachers step into the classroom not just to teach subjects, but to shape character, instill discipline, and build competence that will serve Liberia and beyond.</p>
-							<p class="proprietor-text">We hold firm to three pillars: <strong>Christ, Character, and Excellence</strong>. Your child will be challenged academically to meet Ministry of Education standards and pass WASSCE with integrity. They will also be mentored to respect authority, serve others, and work with their hands. We maintain zero tolerance for exam malpractice, drug abuse, and indiscipline, because real education cannot grow where values are broken.</p>
-							<p class="proprietor-text">To our parents: thank you for trusting us. You are partners, not spectators. To our students: come ready to learn, obey, and lead. The future of Liberia sits in these desks.</p>
-							<p class="proprietor-text">WBI is more than a school; it is a mission field and a launchpad. Together, let us raise a generation that is skilled, godly, and fearless.</p>
+							<p class="proprietor-text"><strong>To the wonderful students, parents of Liberia and the world, especially, Montserrado County and the general public: greetings in the name of our Lord Jesus Christ!</strong></p>
+							<p class="proprietor-text">At William Bean Institute (WBI) School, our mission remains <strong>Christ, Character, and Excellence</strong>. Today, I am excited to announce a bold step forward in our academic standards: we are introducing Biomedical Technology, Plumbing, Electrical Technology, and Electronics Technology into our curriculum so students leave with both WAEC certificates and practical skills.</p>
+							<p class="proprietor-text">Parents, bring your children to a school where faith meets skill, and discipline meets innovation. To every young person in Liberia and others part of the world: your hands can heal, build, and create. Don’t wait for jobs — learn to create them.</p>
+							<p class="proprietor-text">Enrollment is now open; come, let us train the next generation together.</p>
 							<div class="proprietor-signature mt-3">
 								<h6 class="mb-0">Mr. Calvin Y. Goffah</h6>
-								<small>Principal, World Wide Missions School</small>
+								<small>Principal, (WBI) World Wide Missions School</small>
 							</div>
 						</div>
 					</div>

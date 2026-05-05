@@ -1,7 +1,8 @@
 <?php
+require_once __DIR__ . '/includes/contact_info.php';
 $pageTitle = 'Contact';
 $notice = '';
-$recipientEmail = 'info@wbi.edu.lr';
+$recipientEmail = 'info@wbiedwwmss.com';
 $formData = [
 	'name' => '',
 	'email' => '',
@@ -155,7 +156,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 								</div>
 								<div class="col-12 d-grid d-sm-flex gap-2">
 									<button type="submit" class="btn btn-school">Send Message</button>
-									<a href="tel:0777580532" class="btn btn-outline-secondary">Call Us</a>
+									<a href="tel:<?php echo WBI_PRIMARY_PHONE; ?>" class="btn btn-outline-secondary">Call Us</a>
 								</div>
 							</form>
 						</div>
@@ -181,8 +182,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 							</div>
 							<div class="mt-3">
 								<p class="mb-2"><i class="bi bi-geo-alt-fill me-2"></i>Duport Road, Paynesville City, Liberia</p>
-								<p class="mb-2"><i class="bi bi-telephone-fill me-2"></i><a href="tel:0777580532">0777580532</a> / <a href="tel:0886543547">0886543547</a></p>
-								<p class="mb-0"><i class="bi bi-envelope-fill me-2"></i><a href="mailto:info@wbi.edu.lr">info@wbi.edu.lr</a></p>
+								<p class="mb-2"><i class="bi bi-telephone-fill me-2"></i><a href="tel:<?php echo WBI_PRIMARY_PHONE; ?>"><?php echo WBI_PRIMARY_PHONE; ?></a> / <a href="tel:<?php echo WBI_SECONDARY_PHONE; ?>"><?php echo WBI_SECONDARY_PHONE; ?></a></p>
+								<p class="mb-0"><i class="bi bi-envelope-fill me-2"></i><a href="mailto:info@wbiedwwmss.com">info@wbiedwwmss.com</a></p>
 							</div>
 						</div>
 					</div>
@@ -198,13 +199,13 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 					<div class="col-md-3 col-6">
 						<article class="card value-card-item text-start h-100">
 							<h3><i class="bi bi-telephone-fill me-2"></i>Phone</h3>
-							<p class="mb-0"><a href="tel:0777580532">0777580532</a> / <a href="tel:0886543547">0886543547</a></p>
+							<p class="mb-0"><a href="tel:<?php echo WBI_PRIMARY_PHONE; ?>"><?php echo WBI_PRIMARY_PHONE; ?></a> / <a href="tel:<?php echo WBI_SECONDARY_PHONE; ?>"><?php echo WBI_SECONDARY_PHONE; ?></a></p>
 						</article>
 					</div>
 					<div class="col-md-3 col-6">
 						<article class="card value-card-item text-start h-100">
 							<h3><i class="bi bi-envelope-fill me-2"></i>Email</h3>
-							<p class="mb-0"><a href="mailto:info@wbi.edu.lr">info@wbi.edu.lr</a></p>
+							<p class="mb-0"><a href="mailto:info@wbiedwwmss.com">info@wbiedwwmss.com</a></p>
 						</article>
 					</div>
 					<div class="col-md-3 col-6">

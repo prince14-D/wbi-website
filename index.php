@@ -177,9 +177,10 @@ $yearsInOperation = date('Y') - $foundingYear;
 						<div class="col-lg-7 text-start fade-right">
 							<span class="proprietor-kicker">Principal's Message</span>
 							<h2 class="section-title mb-3">A Welcome From The Principal</h2>
-							<p class="proprietor-text"><strong>Warm greetings from the WBI family on Duport Road.</strong></p>
-							<p class="proprietor-text">At William Bean Institute, we raise students who are spiritually grounded, academically strong, and ready to lead with discipline and purpose.</p>
-							<p class="proprietor-text">Our commitment is clear: <strong>Christ, Character, and Excellence</strong> in every classroom, every activity, and every student journey.</p>
+							<p class="proprietor-text"><strong>To the wonderful students, parents of Liberia and the world, especially, Montserrado County and the general public: greetings in the name of our Lord Jesus Christ!</strong></p>
+							<p class="proprietor-text">At William Bean Institute (WBI) School, our mission remains <strong>Christ, Character, and Excellence</strong>. Today, I am excited to announce a bold step forward in our academic standards: we are introducing Biomedical Technology, Plumbing, Electrical Technology, and Electronics Technology into our curriculum so students leave with both WAEC certificates and practical skills.</p>
+							<p class="proprietor-text">Parents, bring your children to a school where faith meets skill, and discipline meets innovation. To every young person in Liberia and others part of the world: your hands can heal, build, and create. Don’t wait for jobs — learn to create them.</p>
+							<p class="proprietor-text">Enrollment is now open; come, let us train the next generation together.</p>
 							<div class="proprietor-highlights" aria-label="Principal message highlights">
 								<span>Faith-Centered Learning</span>
 								<span>Strong Academic Standards</span>
@@ -187,7 +188,7 @@ $yearsInOperation = date('Y') - $foundingYear;
 							</div>
 							<div class="proprietor-signature mt-2">
 								<h6 class="mb-0">Mr. Calvin Y. Goffah</h6>
-								<small>Principal, World Wide Missions School</small>
+								<small>Principal, (WBI) World Wide Missions School</small>
 							</div>
 							<a href="principal.php" class="btn btn-school mt-2">Read More About the Principal</a>
 						</div>
@@ -446,17 +447,17 @@ $yearsInOperation = date('Y') - $foundingYear;
 					</article>
 					<article class="card value-card-item partner-card fade-right text-center">
 						<div class="partner-logo-badge">
-							<img src="assets/images/WBI-logo.png" alt="WBI Paynesville branch logo" class="partner-school-logo" loading="lazy" onerror="this.src='assets/images/logo.png'">
+							<img src="assets/images/nps-logo.png" alt="Newport Street branch logo" class="partner-school-logo" loading="lazy" onerror="this.src='assets/images/logo.png'">
 						</div>
-						<h3>WBI Paynesville Branch</h3>
+						<h3>Newport Street Branch</h3>
 						<p>Focused on quality teaching, structured discipline, and student-centered growth.</p>
 						<a href="contact.php" class="btn btn-outline-secondary btn-sm">Visit Website</a>
 					</article>
 					<article class="card value-card-item partner-card fade-left text-center">
 						<div class="partner-logo-badge">
-							<img src="assets/images/WBI-logo.png" alt="WBI Monrovia branch logo" class="partner-school-logo" loading="lazy" onerror="this.src='assets/images/logo.png'">
+							<img src="assets/images/DBMM-logo.png" alt="DBMM Buchana branch logo" class="partner-school-logo" loading="lazy" onerror="this.src='assets/images/logo.png'">
 						</div>
-						<h3>WBI Monrovia Branch</h3>
+						<h3>DBMM Buchana Branch</h3>
 						<p>Supporting learners with faith-based leadership, exam readiness, and life skills.</p>
 						<a href="contact.php" class="btn btn-outline-secondary btn-sm">Visit Website</a>
 					</article>
@@ -464,8 +465,8 @@ $yearsInOperation = date('Y') - $foundingYear;
 						<div class="partner-logo-badge">
 							<img src="assets/images/WBI-logo.png" alt="WBI regional branch logo" class="partner-school-logo" loading="lazy" onerror="this.src='assets/images/logo.png'">
 						</div>
-						<h3>WBI Regional Branch</h3>
-						<p>Extending the same WBI culture of excellence to serve more families and communities.</p>
+						<h3>Headquarters</h3>
+						<p>Extending the same culture of excellence to serve more families and communities.</p>
 						<a href="contact.php" class="btn btn-outline-secondary btn-sm">Visit Website</a>
 					</article>
 				</div>

@@ -29,7 +29,7 @@
     <div class="footer-block">
       <h3>Connect</h3>
       <p><a href="https://portal.wbi.edu.lr">Student E-Portal</a></p>
-      <p>Email: <a href="mailto:info@wbi.edu.lr">info@wbi.edu.lr</a></p>
+      <p>Email: <a href="mailto:info@wbiedwwmss.com">info@wbiedwwmss.com</a></p>
       <p>Phone: <a href="tel:0777580532">0777580532</a> / <a href="tel:0886543547">0886543547</a></p>
       <p>Office Hours: Mon - Fri, 8:00 AM - 4:00 PM</p>
       <div class="footer-socials" aria-label="Social media links">
@@ -55,7 +55,7 @@
 <div class="floating-actions" aria-label="Quick actions">
   <a
     class="floating-action-btn floating-action-whatsapp"
-    href="https://wa.me/231777580532?text=Hello%20WBI%2C%20I%20need%20more%20information%20about%20admission."
+    href="https://wa.me/<?php echo WBI_WHATSAPP_PHONE; ?>?text=Hello%20WBI%2C%20I%20need%20more%20information%20about%20admission."
     target="_blank"
     rel="noopener noreferrer"
     aria-label="Chat with WBI on WhatsApp"
